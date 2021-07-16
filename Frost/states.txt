@@ -1,0 +1,104 @@
+case "Arizona": 
+  return "lightcoral";
+case "Arkansas": 
+  return "red";
+case "California": 
+  return "tomato";
+case "Colorado": 
+  return "peachpuff";
+case "Connecticut": 
+  return "darkorange";
+case "District of Columbia": 
+  return "orange";
+case "Georgia": 
+  return "gold";
+case "Hawaii": 
+  return "yellow";
+case "Illinois": 
+  return "greenyellow";
+case "Indiana": 
+  return "chartreuse";
+case "Louisiana": 
+  return "palegreen";
+case "Minnesota": 
+  return "forestgreen";
+case "Mississippi": 
+  return "lime";
+case "Montana": 
+  return "green";
+case "New Mexico": 
+  return "aquamarine";
+case "North Dakota": 
+  return "aqua";
+case "Oklahoma": 
+  return "deepskyblue";
+case "Pennsylvania": 
+  return "lightskyblue";
+case "Tennessee": 
+  return "lightsteelblue";
+case "Virginia": 
+  return "royalblue";
+case "Puerto Rico": 
+  return "blue";
+case "Delaware": 
+  return "slateblue";
+case "West Virginia": 
+  return "mediumpurple";
+case "Wisconsin": 
+  return "blueviolet";
+case "Wyoming": 
+  return "mediumorchid";
+case "Alabama": 
+  return "fuchsia";
+case "Alaska": 
+  return "deeppink";
+case "Florida": 
+  return "pink";
+case "Idaho": 
+  return "lightcoral";
+case "Kansas": 
+  return "red";
+case "Maryland": 
+  return "tomato";
+case "New Jersey": 
+  return "peachpuff";
+case "North Carolina": 
+  return "darkorange";
+case "South Carolina": 
+  return "orange";
+case "Washington": 
+  return "gold";
+case "Vermont": 
+  return "yellow";
+case "Utah": 
+  return "greenyellow";
+case "Iowa": 
+  return "chartreuse";
+case "Kentucky": 
+  return "palegreen";
+case "Maine": 
+  return "forestgreen";
+case "Massachusetts": 
+  return "lime";
+case "Michigan": 
+  return "green";
+case "Missouri": 
+  return "aquamarine";
+case "Nebraska": 
+  return "aqua";
+case "Nevada": 
+  return "deepskyblue";
+case "New Hampshire": 
+  return "lightskyblue";
+case "New York": 
+  return "lightsteelblue";
+case "Ohio": 
+  return "royalblue";
+case "Oregon": 
+  return "blue";
+case "Rhode Island": 
+  return "slateblue";
+case "South Dakota": 
+  return "mediumpurple";
+case "Texas": 
+  return "blueviolet";
