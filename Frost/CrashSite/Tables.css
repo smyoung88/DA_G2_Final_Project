@@ -1,0 +1,32 @@
+body {
+
+    color: black;
+    font-family: Arial
+  }
+
+  .jumbotron {
+    /* background-image: url("../images/accident.jpg"); */
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+header {
+  background-color: black;
+}
+  
+table { table-layout: fixed; }
+.location { width: 15%; }
+.city { width: 10%; }
+.state { width: 7.5%; }
+.severity { width: 7.5%; }
+.address { width: 20%; }
+.description { width: 25%; }
+.datetime { width: 10%; }
+
+div {
+  padding-right: 30px;
+  padding-left: 30px;
+}
