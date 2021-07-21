@@ -1,9 +1,9 @@
 # Segment 1 Deliverables
 
 ## Presentation
-Topic: Predicting vehicle crash severity based on traffic jams
-</br>Reason: **UPDATE HERE**
-</br>Description of source data: 
+Topic: Predicting vehicle crash severity based on traffic jams<br>
+<br>Reason: **UPDATE HERE**<br>
+<br>Description of source data: 
 1. Kaggle US Accidents Database
 2. BigQuery geo_us_roads.us_national_roads dataset
 3. Census Bureau of US Boundaries (States/Counties/Congressional Districts/City Limits Etc)
