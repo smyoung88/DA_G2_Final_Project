@@ -32,7 +32,8 @@ Topic: Predicting vehicle crash severity based on traffic jams<br>
 - Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:<br>
 - ✓ Takes in data in from the provisional database<br>
 - ✓ Outputs label(s) for input data <br>
-- **UPDATE HERE**
+
+**UPDATE HERE**
 
 ## Database
 Present a provisional database that stands in for the final database and accomplishes the following:<br>✓ Sample data that mimics the expected final database structure or schema 
@@ -53,7 +54,7 @@ filtering street names and taking coordinates to determine:
 * total mileage of available roads per state/county
 * classification of road (hwy, street, etc)
  
-- Draft machine learning module is connected to the provisional database
+**Draft machine learning module is connected to the provisional database**
 
 ## Data Sources
 - https://www.kaggle.com/sobhanmoosavi/us-accidents
