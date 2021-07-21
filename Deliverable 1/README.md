@@ -17,10 +17,10 @@ Topic: Predicting vehicle crash severity based on traffic jams
 ## GitHub
 
 ### Communication Protocols
-- Main communicaiton used for this project is via a private Slack channel
+- Main communicaiton used for this project is via private Slack channel
 - Live video meetings are utilized every Tuesday and Thursday for four weeks
 - Individual working files were created for each team member
-- Individual branches were created for each team member while working in respecive personal files for added layer of file protection
+- Individual branches were created for each team member while working in respective personal files for added layer of file protection
 
 ### Individual Branches
 - TaylorBranch
