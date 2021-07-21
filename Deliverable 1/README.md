@@ -1,10 +1,9 @@
-# Dream Team Final Project!
+# Segment 1 Deliverables
 
-## Overview
-The purpose of this project is to predict crash severity based off traffic jams
+## Presentation
 
-## Communication Protocols
-- The main means of communication for this project is via a private Slack channel. 
-- Online video meetings are utilized every Tuesday and Thursday for four weeks.
+## GitHub
 
-## Summary
+## Machine Learning Model
+
+## Database
