@@ -30,8 +30,8 @@ Topic: Predicting vehicle crash severity based on traffic jams<br>
 
 ## Machine Learning Model
 - Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:<br>
-- ✓ Takes in data in from the provisional database<br>
-- ✓ Outputs label(s) for input data <br>
+✓ Takes in data in from the provisional database<br>
+✓ Outputs label(s) for input data <br>
 
 **UPDATE HERE**
 
