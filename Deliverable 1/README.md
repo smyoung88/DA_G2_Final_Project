@@ -1,10 +1,10 @@
 # Segment 1 Deliverables
 
 ## Presentation
-Topic: Predicting vehicle crash severity based on traffic jams
-Reason:
-Description of source data: Kaggle Crash Severity Dataset
-Questions hoping to answer: 
+Topic: Predicting vehicle crash severity based on traffic jams</br>
+</br>Reason:
+</br>Description of source data: Kaggle Crash Severity Dataset
+</br>Questions hoping to answer: 
 
 ## GitHub
 
