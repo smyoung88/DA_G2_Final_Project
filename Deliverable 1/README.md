@@ -29,12 +29,14 @@ Topic: Predicting vehicle crash severity based on traffic jams<br>
 - frost
 
 ## Machine Learning Model
-- Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:✓ Takes in data in from the provisional database✓ Outputs label(s) for input data 
+- Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:<br>
+- ✓ Takes in data in from the provisional database<br>
+- ✓ Outputs label(s) for input data <br>
 - **UPDATE HERE**
 
 ## Database
-Present a provisional database that stands in for the final database and accomplishes the following: ✓ Sample data that mimics the expected final database structure or schema 
-✓ Draft machine learning module is connected to the provisional database 
+Present a provisional database that stands in for the final database and accomplishes the following:<br>✓ Sample data that mimics the expected final database structure or schema 
+<br>✓ Draft machine learning module is connected to the provisional database 
 
 **UPDATE BELOW**
 
