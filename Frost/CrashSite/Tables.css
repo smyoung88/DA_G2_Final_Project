@@ -18,15 +18,15 @@ header {
 }
   
 table { table-layout: fixed; }
-.location { width: 15%; }
+.location { width: 20%; }
 .city { width: 10%; }
-.state { width: 7.5%; }
-.severity { width: 7.5%; }
+.state { width: 5%; }
+.severity { width: 5%; }
 .address { width: 20%; }
-.description { width: 25%; }
+.description { width: 30%; }
 .datetime { width: 10%; }
 
 div {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
