@@ -1,11 +1,3 @@
-# Adding large text file to .gitignore
-Frost/roads.txt
-Frost/US_Accidents_Dec20_Updated.csv
-
-# Adding config.js
-Frost/static/js/config.js
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -33,6 +25,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.DS_Store
 MANIFEST
 
 # PyInstaller
