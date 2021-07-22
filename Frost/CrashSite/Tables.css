@@ -1,32 +1,36 @@
-body {
-
-    color: black;
-    font-family: Arial
-  }
-
-  .jumbotron {
-    /* background-image: url("../images/accident.jpg"); */
-    background-size: 100% 100%;
-    text-align: center;
-  }
-
-  input {
-    width: 100%;
-  }
-header {
-  background-color: black;
+.u-section-1 .u-sheet-1 {
+  min-height: 689px;
 }
-  
-table { table-layout: fixed; }
-.location { width: 15%; }
-.city { width: 10%; }
-.state { width: 7.5%; }
-.severity { width: 7.5%; }
-.address { width: 20%; }
-.description { width: 25%; }
-.datetime { width: 10%; }
 
-div {
-  padding-right: 30px;
-  padding-left: 30px;
+.u-section-1 .u-custom-html-1 {
+  min-height: 669px;
+  width: 1205px;
+  margin: 0 -32px 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+    width: 940px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
 }

@@ -1,3 +1,7 @@
+.u-section-1 {
+  background-image: none;
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 132px;
 }
@@ -80,14 +84,21 @@
     width: 340px;
   }
 }.u-section-3 {
-  min-height: 1047px;
   background-image: url("images/traffic.jpg");
   background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 1117px;
 }
 
 @media (max-width: 1199px) {
   .u-section-3 {
     min-height: 863px;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 921px;
   }
 }
 
@@ -95,16 +106,28 @@
   .u-section-3 {
     min-height: 661px;
   }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 705px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-3 {
     min-height: 496px;
   }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 529px;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-3 {
     min-height: 312px;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 333px;
   }
 }
