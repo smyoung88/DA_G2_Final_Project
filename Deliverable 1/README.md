@@ -22,7 +22,7 @@
 3. Could other factors such as road area, population density, vehicle registrations, blue, laws, marijuana laws, or other factors improve the accuracy of the model?<br>
 
 **Visualizations and Website**:  The website is in development but is currently live for preview.  
-<br>Link to outline of final deliverable webpage found <a href="https://frostbrosracing.github.io/CrashSite/">here</a><br>
+<br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
 <br>
 ![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
 <br>
