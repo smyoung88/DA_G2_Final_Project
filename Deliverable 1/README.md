@@ -1,9 +1,13 @@
 # Segment 1 Deliverables
 
 ## Presentation
-Topic: Predicting vehicle crash severity based on traffic jams<br>
-<br>Reason: **UPDATE HERE**<br>
-<br>Description of source data: 
+
+**Topic**: Prediction of motor vehicle accident (MVA) impacts on traffic using machine learning.
+
+**Reason**: If a map and directions application like Waze or Google Maps coud use an ML model to predict the likelihood of accidents that could impact traffic based on environmental conditions, road features, physical locations, and other factors, they could provide better route recommendations and improve value proposition to app users/purchasers.
+
+**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include overview of roads, vehicle registrations, and other factorsfor the purpose of context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple API’s targeting streaming, web-based incident report sites. Data regarding road locations and lengths was sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
+
 1. Kaggle US Accidents Database
 2. BigQuery geo_us_roads.us_national_roads dataset
 3. Census Bureau of US Boundaries (States/Counties/Congressional Districts/City Limits Etc)
@@ -12,9 +16,13 @@ Topic: Predicting vehicle crash severity based on traffic jams<br>
 6. Kaggle US Demographic Census - 2015
 7. Decennial Census - Population Race by State 2010
 
+**Questions For The Data**:
+1. Is it possible to accurately predict the severity of accidents that will occur given the collected data?<br>
+2. Which features will provide the greatest support for the ML model?<br>
+3. Could other factors such as road area, population density, vehicle registrations, blue, laws, marijuana laws, or other factors improve the accuracy of the model?<br>
+
 <br>Link to outline of final deliverable webpage found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>
 
-</br>Questions hoping to answer: **UPDATE HERE**
 
 ## GitHub
 
@@ -31,9 +39,9 @@ Topic: Predicting vehicle crash severity based on traffic jams<br>
 - frost
 
 ## Machine Learning Model
-- Present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:<br>
-✓ Takes in data in from the provisional database<br>
-✓ Outputs label(s) for input data <br>
+**Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
+
+This model was chosed for multiple factors and will be used to take in the preprocessed and encoded accident dataset, prediciting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher represenation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing accuracy of the model's prediction capabilty. Gradient boosting was chosen was selected with the intention of reducing error and increasing accuracy of the model. 
 
 **UPDATE HERE**
 
