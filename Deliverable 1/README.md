@@ -23,15 +23,22 @@
 
 **Visualizations and Website**:  The website is in development but is currently live for preview.  
 <br>Link to outline of final deliverable webpage found <a href="https://frostbrosracing.github.io/CrashSite/">here</a><br>
+<br>
 ![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
+<br>
 <br>
 ![dropdown](https://user-images.githubusercontent.com/77071776/126848223-95751de2-5f77-489b-9633-ec41a63b8079.png)
 <br>
+<br>
 ![tooltip](https://user-images.githubusercontent.com/77071776/126848231-86bb86e8-a4e5-4aae-91d8-21f35c841166.png)
+<br>
 <br>
 The table view needs to be refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  The plan is to get much more, if not all of the Kaggle dataset accessible in the table view.
 <br>
 ![table](https://user-images.githubusercontent.com/77071776/126848236-75347f77-b6e4-4d1d-a1cd-12acaa6eaf4b.png)
+<br>
+<br>
+The `Analysis` tab will have a full summary of the Machine Learning model with visualizations.
 
 
 
