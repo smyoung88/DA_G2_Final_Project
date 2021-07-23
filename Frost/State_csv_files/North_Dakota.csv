@@ -1,0 +1,464 @@
+Severity,Date/Time,Latitude,Longitude,City,State,Number,Street,Description
+2,2019-03-30 18:33:00,46.9089,-96.8396,Fargo,ND,,US-81 S,At US-81-BR/19th Ave/Exit 67 - Accident. Lane blocked.
+2,2020-11-10 09:34:25,48.8062,-100.2268,Bottineau,ND,9601, 22nd Ave NE,Incident on ND-5 EB near MP 189 Expect delays.
+2,2020-12-16 22:29:17,47.9933,-101.0357,Sawyer,ND,16539, 167th St SE,Incident on ND-23 EB near MP 119 Expect delays.
+2,2020-11-26 04:07:30.000000000,46.8911,-99.0686,Cleveland,ND,,I-94 E,Stationary traffic on I-94 E from CR-67/Euclid Ave/5th St/Exit 238 (I-94) to 67 1/2 Ave/I-94 Service Rd (I-94) due to accident.
+2,2020-11-06 18:25:18,46.7198,-96.8304,Horace,ND,,I-29 N,Incident on I-29 NB near MP 55 Expect delays.
+2,2020-12-26 20:59:07.000000000,47.5512,-101.2407,Coleharbor,ND,1274, Highway 83 NW,Incident on US-83 NB near MP 152 Expect delays.
+2,2020-11-06 02:50:05,46.2834,-99.2886,Lehr,ND,5272, Highway 13,Incident on ND-13 EB near MP 247 Expect delays.
+2,2020-10-11 11:57:08,46.6333,-96.8314,Horace,ND,,I-29 N,Incident on I-29 NB near MP 49 Expect delays.
+2,2020-11-13 03:44:23,46.9804,-96.8864,Harwood,ND,,I-29 N,Incident on I-29 NB near MP 74 Expect delays.
+2,2020-12-02 21:25:29,47.2417,-97.0115,Grandin,ND,,I-29 N,Incident on I-29 NB near MP 95 Expect delays.
+2,2020-10-16 14:12:26,46.8526,-96.9118,West Fargo,ND,,I-94 W,Incident on I-94 WB near MP 346 Expect delays.
+2,2020-11-24 05:38:00,46.9202,-97.9085,Oriska,ND,,I-94 E,Slow traffic on I-94 E - US-52 E from Exit 296 (I-94) to ND-32/Exit 302 (I-94) due to accident.
+2,2020-11-24 08:14:00,46.8929,-98.3288,Spiritwood,ND,,I-94 E,Slow traffic on I-94 E - US-52 E from CR-7/Exit 276 (I-94) to CR-11/Exit 281 (I-94) due to accident.
+2,2020-12-30 22:10:06,48.3457,-100.4052,Towner,ND,,2nd Ave SE,Incident on ND-14 NB near MP 115 Expect delays.
+2,2020-12-30 08:24:58,46.8772,-97.0479,Mapleton,ND,,I-94 E,Incident on I-94 EB near MP 339 Expect delays.
+2,2020-12-30 01:29:53,46.9374,-96.8521,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 70 Expect delays.
+2,2020-10-20 06:58:28.000000000,46.9424,-103.8237,Sentinel Butte,ND,,I-94 E,Incident on I-94 EB near MP 11 Expect delays.
+2,2020-12-29 17:09:48,46.8477,-96.8619,Fargo,ND,,45th St S,Incident on I-94 WB near MP 348 Expect delays.
+2,2020-11-24 05:48:23,46.9199,-97.8658,Oriska,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-12-16 00:49:01,48.0574,-100.9294,Velva,ND,2, 1st Ave E,Incident on ND-41 NB near MP 74 Expect delays.
+2,2020-10-23 14:23:57,48.0646,-99.5457,Maddock,ND,4999, Highway 19,Incident on ND-19 EB near MP 121 Expect delays.
+2,2020-12-29 19:29:49,46.8213,-100.836,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 157 Expect delays.
+2,2020-12-11 20:07:57,48.821,-101.3,Mohall,ND,2701, 97th St NW,Incident on ND-256 NB near MP 4 Expect delays.
+2,2020-12-13 03:23:18,46.8797,-102.5761,Gladstone,ND,,I-94 W,Incident on I-94 WB near MP 70 Expect delays.
+2,2020-12-30 04:19:54,47.5008,-97.0873,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 115 Expect delays.
+2,2020-11-06 02:55:05,46.2257,-97.6346,Gwinner,ND,13179, 82nd St SE,Incident on ND-13 EB near MP 340 Expect delays.
+2,2020-11-16 09:55:33,46.8633,-101.0032,Mandan,ND,,I-94 W,Incident on I-94 WB near MP 147 Expect delays.
+2,2020-12-30 19:25:05,46.8624,-96.8416,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 64 Expect delays.
+2,2020-11-28 18:49:20,46.9018,-103.1897,Belfield,ND,3520, Highway 85 SW,Incident on US-85 NB near MP 76 Expect delays.
+2,2020-12-30 07:04:57,47.6029,-97.0803,Buxton,ND,,I-29 S,Incident on I-29 SB near MP 118 Expect delays.
+2,2020-12-30 17:15:03,47.8929,-97.09,Grand Forks,ND,,I-29 N,Incident on I-29 NB near MP 139 Expect delays.
+2,2020-12-30 19:45:05,46.8474,-96.8536,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 349 Expect delays.
+2,2020-11-24 03:48:22,46.6418,-100.9043,Mandan,ND,5339, Highway 6,Incident on ND-6 NB near MP 55 Expect delays.
+2,2020-12-22 02:52:54,47.4482,-99.1174,Carrington,ND,133, 4th Ave S,Incident on US-52 EB near MP 223 Expect delays.
+2,2020-12-16 18:34:15,46.877,-102.5653,Gladstone,ND,,I-94 E,Incident on I-94 EB near MP 77 Expect delays.
+2,2020-12-11 20:25:30,46.8665,-101.945,Hebron,ND,,I-94 E,Slow traffic on I-94 E from CR-90/Exit 97 (I-94) to CR-88/Exit 108 (I-94) due to accident.
+2,2020-12-11 15:12:54,47.9777,-102.3436,New Town,ND,4698, 82nd Ave NW,Incident on ND-23 EB near MP 56 Expect delays.
+2,2020-11-13 01:49:21,48.1366,-101.148,Minot,ND,9622, Highway 52 S,Incident on US-52 EB near MP 105 Expect delays.
+2,2020-11-17 22:10:57,46.8221,-100.8341,Mandan,ND,,I-94 W,Incident on I-94 WB near MP 156 Expect delays.
+2,2020-10-12 07:41:01,46.3657,-98.0765,Verona,ND,7222, Highway 1,Incident on ND-1 near MP 33 Expect delays.
+2,2020-12-28 16:59:34,46.876,-97.2686,Wheatland,ND,,I-94 W,Incident on I-94 WB near MP 328 Expect delays.
+2,2020-12-29 23:29:52,48.0052,-97.9135,Petersburg,ND,12450, Highway 2,Incident on US-2 EB near MP 316 Expect delays.
+2,2020-12-16 06:49:05.000000000,47.7457,-97.3048,Reynolds,ND,2213, 5th Ave NE,Incident on ND-15 EB near MP 122 Expect delays.
+2,2020-10-16 14:13:13.000000000,46.8813,-96.8399,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 65 Expect delays.
+2,2020-11-18 03:31:01,48.5754,-103.2765,Alamo,ND,,120th Ave NW,Incident on ND-50 EB near MP 38 Expect delays.
+2,2020-11-12 04:14:07,47.8604,-97.0874,Grand Forks,ND,,I-29 N,Incident on I-29 NB near MP 137 Expect delays.
+2,2020-12-16 01:24:01,46.5311,-100.294,Hazelton,ND,,Highway 83,Incident on US-83 NB near MP 46 Expect delays.
+2,2020-12-20 02:32:20,46.8367,-100.5359,Menoken,ND,,I-94 E,Incident on I-94 EB near MP 172 Expect delays.
+2,2020-11-07 15:32:00,46.8758,-97.2584,Mapleton,ND,,I-94 E,Slow traffic on I-94 from 153rd Ave/Exit 328 (I-94) to ND-18/Exit 331 (I-94) due to accident.
+2,2020-12-02 20:58:00.000000000,46.8214,-100.8452,Mandan,ND,,I-94 E,Stationary traffic on I-94 E from Twin City Dr/Exit 155 (I-94) to Divide Ave/Exit 157 (I-94) due to accident.
+2,2020-12-30 19:15:05,46.8475,-96.875,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 348 Expect delays.
+2,2020-11-25 13:33:46,47.7707,-97.078,Thompson,ND,,I-29 S,Incident on I-29 SB near MP 126 Expect delays.
+2,2020-12-13 03:23:18,46.8797,-102.5761,Gladstone,ND,,I-94 W,Incident on I-94 WB near MP 70 Expect delays.
+2,2020-11-24 01:38:20,46.8806,-99.6417,Tappen,ND,,I-94 W,Incident on I-94 WB near MP 212 Expect delays.
+2,2020-11-24 09:44:30,47.5704,-97.0802,Buxton,ND,,I-29 N,Stationary traffic on I-29 N - US-81 N from ND-200/Exit 111 (I-29) to CR-21/Exit 118 (I-29) due to accident.
+2,2020-09-25 13:50:17,46.877,-102.5653,Gladstone,ND,,I-94 E,Incident on I-94 EB near MP 74 Expect delays.
+2,2020-12-29 21:44:51,46.8629,-101.0131,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 147 Expect delays.
+2,2020-12-20 16:27:30,46.8768,-97.132,Casselton,ND,,I-94 W,Incident on I-94 WB near MP 335 Expect delays.
+4,2019-02-07 11:57:41,46.9049,-96.8031,Fargo,ND,1938, 16th St N,Closed at 16th St N - Road closed due to accident. Blowing snow.
+2,2020-12-12 15:33:10,46.9198,-97.6863,Tower City,ND,,I-94 W,Incident on I-94 WB near MP 305 Expect delays.
+2,2020-12-12 07:23:06,46.8668,-101.9455,Hebron,ND,,I-94 W,Incident on I-94 WB near MP 102 Expect delays.
+2,2020-11-03 19:56:55.000000000,46.9154,-103.4875,Medora,ND,,I-94 W,Incident on I-94 WB near MP 27 Expect delays.
+2,2020-11-25 01:11:00,46.8842,-96.8398,Fargo,ND,,I-29 S,Stationary traffic on US-81 S - I-29 S from 12th Ave/Exit 66 (I-29) to 13th Ave/38th St/Exit 64 (I-29) due to accident.
+2,2020-10-16 15:18:06,46.8775,-96.9569,West Fargo,ND,,I-94 Bus Loop,Incident on I-94 EB near MP 343 Expect delays.
+2,2020-11-04 04:57:45,46.8484,-96.799,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 352 Expect delays.
+2,2020-10-20 11:58:59,47.8621,-102.7345,Mandaree,ND,,BIA Road 4,Incident on ND-22 NB near MP 148 Expect delays.
+2,2020-10-20 14:35:16,47.8622,-103.1978,Watford City,ND,3101, Highway 1806 W,Incident on ND-1806 near MP 307 Expect delays.
+2,2020-12-12 06:08:04,47.0657,-97.7904,Oriska,ND,2400, 128th Ave SE,Incident on ND-32 NB near MP 87 Expect delays.
+2,2020-11-09 18:59:17,48.0272,-102.5724,New Town,ND,4501, Highway 1804,Incident on ND-1804 NB near MP 254 Expect delays.
+2,2020-10-16 15:01:47,46.975,-96.8826,Harwood,ND,,I-29 S,Incident on I-29 SB near MP 72 Expect delays.
+2,2020-12-11 18:42:56,48.0597,-102.8714,New Town,ND,4455, State Highway 1806,Incident on ND-1806 NB near MP 272 Expect delays.
+2,2020-12-29 21:54:51,46.8612,-101.413,New Salem,ND,,I-94 E,Incident on I-94 EB near MP 131 Expect delays.
+2,2020-11-24 05:48:23,46.9203,-97.9187,Valley City,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-11-22 14:52:57,46.9159,-103.4903,Medora,ND,,I-94 Bus E,Incident on I-94 EB near MP 30 Expect delays.
+2,2020-10-04 17:41:00,46.1173,-100.68,Fort Yates,ND,8398, Highway 24,Incident on ND-24 near MP 11 Expect delays.
+2,2020-12-27 15:09:18,46.8325,-96.8399,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 62 Expect delays.
+2,2020-11-28 04:14:09,47.8047,-103.3691,Arnegard,ND,,Highway 85 N,Incident on US-85 SB near MP 146 Expect delays.
+2,2020-09-30 13:57:36,46.8422,-96.8411,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 62 Expect delays.
+2,2020-12-29 23:59:52,46.8896,-98.6769,Jamestown,ND,,I-94 E,Incident on I-94 EB near MP 261 Expect delays.
+2,2020-12-30 03:49:54,46.8473,-96.8481,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 350 Expect delays.
+2,2020-12-20 17:59:00,46.8768,-97.1252,Mapleton,ND,,I-94 W,Slow traffic on I-94 W - US-52 W from CR-11/Meridian Rd/Exit 338 (I-94) to ND-18/Exit 331 (I-94) due to accident.
+2,2018-05-21 05:55:07,46.8886,-96.7996,Fargo,ND,1325,11th Ave N,Accident on College St at 11th Ave.
+2,2020-12-12 00:03:00,46.8778,-96.9671,West Fargo,ND,,I-94 W,Incident on I-94 WB near MP 343 Expect delays.
+2,2020-11-17 14:45:52,46.8185,-100.8801,Mandan,ND,,Highway 1806 S,Incident on ND-1806 NB near MP 69 Expect delays.
+2,2020-10-11 09:51:19,47.6742,-102.7273,Mandaree,ND,,BIA Road 30,Incident on ND-22 NB near MP 133 Expect delays.
+2,2020-11-03 20:56:55,47.8323,-100.1295,Martin,ND,,Highway 52,Incident on US-52 EB near MP 158 Expect delays.
+2,2020-11-23 02:23:30,46.877,-96.9506,West Fargo,ND,,I-94 E,Slow traffic on I-94 E - US-52 E from I-94/US-52/US-10/Exit 343 (I-94) to CR-17/Exit 346 (I-94) due to accident.
+2,2020-11-10 04:42:30,46.8621,-101.9125,Glen Ullin,ND,,I-94 W,Stationary traffic on I-94 from CR-88/Exit 108 (I-94) to CR-139/Exit 102 (I-94) due to accident.
+2,2020-11-24 08:08:24,46.8929,-98.3288,Spiritwood,ND,,I-94 E,Incident on I-94 EB near MP 279 Expect delays.
+2,2020-11-06 04:00:06.000000000,46.5052,-99.769,Napoleon,ND,501, Broadway,Incident on ND-3 NB near MP 59 Expect delays.
+2,2020-12-03 00:00:30,48.2398,-101.0875,Surrey,ND,13020, Highway 2 E,Slow traffic on US-2 E from US-2 Bus/Burdick Expy (US-2) to CR-23/153rd St (US-2) due to accident.
+2,2020-12-29 22:19:51,46.8294,-100.8103,Bismarck,ND,,I-94 E,Incident on I-94 EB near MP 159 Expect delays.
+2,2020-12-21 04:31:30,47.2417,-97.0115,Grandin,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from CR-11/Exit 92 (I-29) to ND-200A/Exit 100 (I-29) due to accident.
+2,2020-12-30 17:25:04.000000000,46.8322,-96.8403,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 62 Expect delays.
+2,2020-11-24 09:43:26,47.5996,-97.08,Buxton,ND,,I-29 N,Incident on I-29 NB near MP 117 Expect delays.
+2,2020-12-18 21:27:01,46.8475,-96.8621,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 348 Expect delays.
+2,2020-11-05 04:39:42,47.1534,-98.8963,Pingree,ND,1800, Highway 281,Incident on US-52 EB near MP 247 Expect delays.
+2,2020-12-17 00:45:00,47.8842,-97.0876,Grand Forks,ND,,I-29 S,Slow traffic on US-81 S - I-29 S from US-81 Bus/32nd Ave/Exit 138 (I-29) to ND-15/Exit 130 (I-29) due to accident.
+2,2020-12-03 23:30:45,46.1485,-98.0905,Oakes,ND,899, N 7th St,Incident on ND-1 NB near MP 18 Expect delays.
+2,2020-10-15 18:08:12,47.3525,-96.9636,Hillsboro,ND,,168th Ave SE,Incident on ND-200 near MP 410 Expect delays.
+2,2020-12-11 16:32:55,47.9752,-102.7289,New Town,ND,4398, Highway 22,Incident on ND-23 EB near MP 38 Expect delays.
+2,2020-11-14 01:44:38,46.8872,-102.7898,Dickinson,ND,550, 3rd Ave W,Incident on ND-22 NB near MP 72 Expect delays.
+2,2020-12-01 04:19:59,46.7971,-100.8224,Mandan,ND,,Bismark Expy S,Incident on ND-810 EB near MP 1 Expect delays.
+2,2020-11-12 01:19:05,47.9183,-97.0937,Grand Forks,ND,,I-29 S,Incident on ND-297 EB near MP 0 Expect delays.
+2,2020-12-15 11:28:53,47.8765,-99.9408,Harvey,ND,3200, Highway 3 S,Incident on ND-3 NB near MP 168 Expect delays.
+2,2020-11-12 02:52:00,47.7835,-97.0775,Thompson,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from ND-15/Exit 130 (I-29) to US-81 Bus/32nd Ave/Exit 138 (I-29) due to accident.
+2,2020-11-24 05:48:23,46.9199,-97.8709,Oriska,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-11-26 18:43:48,46.8797,-102.5761,Gladstone,ND,,I-94 W,Incident on I-94 WB near MP 70 Expect delays.
+2,2020-12-30 01:44:53,46.874,-97.2062,Mapleton,ND,,I-94 E,Incident on I-94 EB near MP 332 Expect delays.
+2,2020-12-25 19:33:51.000000000,46.8078,-100.2892,Sterling,ND,501, Highway 83,Incident on US-83 NB near MP 64 Expect delays.
+2,2020-12-30 17:25:04.000000000,46.9051,-96.8396,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 67 Expect delays.
+2,2020-11-19 04:02:01,46.9424,-103.8237,Sentinel Butte,ND,,I-94 E,Incident on I-94 EB near MP 12 Expect delays.
+2,2020-11-10 04:39:23,46.866,-101.9288,Glen Ullin,ND,,I-94 W,Incident on I-94 WB near MP 103 Expect delays.
+2,2020-11-07 20:14:00,47.6689,-97.0801,Reynolds,ND,,I-29 S,Slow traffic on I-29 from CR-25/Exit 123 (I-29) to CR-21/Exit 118 (I-29) due to accident.
+2,2020-12-30 21:55:06,46.8776,-97.016,Mapleton,ND,,I-94 W,Incident on I-94 WB near MP 340 Expect delays.
+2,2020-11-25 21:53:35,48.0208,-98.0756,Michigan,ND,4199, 117th Ave NE,Incident on US-2 EB near MP 308 Expect delays.
+2,2020-11-12 03:04:06,46.8758,-97.4344,Buffalo,ND,,I-94 W,Incident on I-94 WB near MP 320 Expect delays.
+4,2019-03-10 11:43:52,46.8885,-97.6374,Tower City,ND,,I-94 W,Closed at 36th St/135th Ave/Exit 310 - Road closed due to accident. Chemical spillage accident.
+2,2020-12-30 03:49:54,46.8473,-96.8481,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 350 Expect delays.
+2,2020-10-16 15:33:57,46.262,-96.834,Mooreton,ND,,I-29 S,Incident on I-29 SB near MP 22 Expect delays.
+2,2020-12-17 01:24:19,46.8614,-96.8412,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 64 Expect delays.
+2,2018-07-15 15:35:58,46.8815,-100.7723,Bismarck,ND,,Highway 83,At Wilton - Accident.
+2,2020-12-29 21:14:30,46.9199,-97.9452,Valley City,ND,,I-94 W,Slow traffic on I-94 W - US-52 W from Exit 296 (I-94) to 8th Ave/Exit 292 (I-94) due to accident.
+2,2020-12-10 21:07:41,47.8845,-104.0334,Cartwright,ND,,ND-58,Incident on ND-58 NB near MP 2 Expect delays.
+2,2020-12-30 06:04:57,46.6306,-97.9928,Kathryn,ND,11725, 54th St SE,Incident on ND-46 EB near MP 65 Expect delays.
+2,2020-11-16 16:30:38,46.8612,-101.413,New Salem,ND,,I-94 E,Incident on I-94 EB near MP 128 Expect delays.
+2,2020-10-16 14:10:00.000000000,46.8796,-96.8405,Fargo,ND,,I-29 S,Slow traffic on I-29 from 12th Ave/Exit 66 (I-29) to I-94/Exit 63 (I-29) due to accident.
+2,2020-10-19 15:31:41,46.8634,-100.9686,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 151 Expect delays.
+2,2020-12-23 17:13:20,46.8365,-100.2935,Sterling,ND,,US-83 N,Incident on I-94 WB near MP 180 Expect delays.
+2,2020-11-26 04:18:38,46.8854,-99.1173,Cleveland,ND,,I-94 E,Incident on I-94 EB near MP 242 Expect delays.
+2,2020-12-21 04:52:40,47.3287,-97.048,Hillsboro,ND,,I-29 N,Incident on I-29 NB near MP 97 Expect delays.
+2,2020-12-30 07:04:57,47.6027,-97.0803,Buxton,ND,,I-29 S,Incident on I-29 SB near MP 118 Expect delays.
+2,2020-11-11 15:23:59,48.1663,-103.1463,Ray,ND,11370, Highway 1804,Incident on ND-1804 NB near MP 295 Expect delays.
+2,2020-12-21 05:52:40,48.3122,-100.5833,Towner,ND,2, Highway 2 W,Incident on US-2 WB near MP 182 Expect delays.
+2,2020-11-06 21:10:20,46.8777,-96.9637,West Fargo,ND,,I-94 W,Incident on I-94 WB near MP 343 Expect delays.
+2,2018-05-03 10:13:10,46.8642,-99.911,Steele,ND,,ND-3 S,Between ND-3/Exit 200 and 30th Ave/Exit 205 - Accident.
+2,2020-11-20 00:12:13.000000000,47.92,-99.9408,Harvey,ND,3500, Highway 3 S,Incident on ND-3 NB near MP 170 Expect delays.
+2,2020-11-23 22:23:18,47.4581,-99.1174,Carrington,ND,308, Highway 281 NE,Incident on US-281 NB near MP 113 Expect delays.
+2,2020-12-08 15:57:04,47.767,-103.3314,Watford City,ND,,Highway 85 N,Incident on US-85 NB near MP 144 Expect delays.
+2,2020-12-19 17:47:14,48.3423,-103.4427,Epping,ND,12748, Highway 2,Incident on US-2 EB near MP 41 Expect delays.
+2,2020-11-24 09:43:26,47.5008,-97.0873,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 117 Expect delays.
+2,2020-11-24 07:33:24,46.8472,-96.8202,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 351 Expect delays.
+2,2020-12-24 00:03:24,46.8486,-96.7987,Fargo,ND,,I-94 W,Incident on I-94 WB near MP 352 Expect delays.
+2,2020-12-30 03:54:54,46.8996,-96.8392,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 67 Expect delays.
+2,2020-11-11 02:43:50,48.3549,-100.324,Towner,ND,1208, Highway 2 E,Incident on US-2 EB near MP 196 Expect delays.
+2,2020-11-05 04:39:42,47.1534,-98.8963,Pingree,ND,1800, Highway 281,Incident on US-52 EB near MP 247 Expect delays.
+2,2020-12-25 03:53:42,46.8264,-100.8207,Bismarck,ND,,I-94 W,Incident on I-94 WB near MP 157 Expect delays.
+2,2020-10-19 15:31:41,46.8634,-100.9686,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 151 Expect delays.
+2,2020-12-20 22:57:35,48.2764,-100.7992,Granville,ND,1001, Highway 2 W,Incident on US-2 WB near MP 171 Expect delays.
+2,2020-12-01 04:07:30,46.7983,-100.8251,Mandan,ND,,Bismark Expy S,Slow traffic on ND-810 E from McKenzie Dr (Bismarck Expy) to S Washington St (Bismarck Expy) due to accident.
+2,2020-11-26 04:18:38,46.8911,-99.0686,Cleveland,ND,,I-94 E,Incident on I-94 EB near MP 242 Expect delays.
+2,2020-11-19 12:32:06,46.8552,-102.1967,Richardton,ND,,Highway 10 E,Incident on I-94 EB near MP 91 Expect delays.
+2,2020-10-16 14:10:00.000000000,46.8796,-96.8405,Fargo,ND,,I-29 S,Slow traffic on I-29 from 12th Ave/Exit 66 (I-29) to I-94/Exit 63 (I-29) due to accident.
+2,2020-12-12 19:33:13,46.795,-100.7946,Bismarck,ND,,S Washington St,Incident on ND-810 WB near MP 1 Expect delays.
+2,2020-12-30 21:55:06,46.8776,-97.016,Mapleton,ND,,I-94 W,Incident on I-94 WB near MP 340 Expect delays.
+2,2020-10-12 07:41:01,46.3697,-98.0765,Verona,ND,7199, Highway 1,Incident on ND-1 near MP 33 Expect delays.
+2,2020-11-12 21:09:18,48.2189,-101.3353,Minot,ND,2576, Highway 2 and 52 W,Incident on US-2 WB near MP 144 Expect delays.
+2,2020-10-15 13:46:13,46.5585,-98.7044,Jud,ND,,Highway 281,Incident on US-281 NB near MP 45 Expect delays.
+2,2020-11-21 19:47:43,47.9918,-97.0927,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 145 Expect delays.
+2,2020-12-30 02:09:53,46.877,-96.9506,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 344 Expect delays.
+4,2016-09-06 00:26:23,46.8277,-100.8807,Mandan,ND,700, E Main St,Closed between Main St E and I-94-BL - Road closed due to accident.
+2,2020-12-12 02:23:02,46.1565,-96.834,Hankinson,ND,,I-29 N,Incident on I-29 NB near MP 18 Expect delays.
+2,2020-10-20 13:44:27,48.0238,-103.6586,Alexander,ND,,Highway 85 N,Incident on US-85 NB near MP 174 Expect delays.
+4,2019-02-07 08:57:41,46.8475,-96.8689,Fargo,ND,,I-94 E,Closed at 45th St/Exit 348 - Road closed due to accident. Snowfall.
+2,2020-10-22 16:19:30,46.9068,-98.2335,Sanborn,ND,,I-94 W,Slow traffic on I-94 from CR-11/Exit 281 (I-94) to CR-7/Exit 276 (I-94) due to accident.
+2,2020-12-11 15:12:54,46.3005,-103.9729,Marmarth,ND,17302, US Highway 12,Incident on US-12 EB near MP 4 Expect delays.
+2,2020-11-20 04:17:16,46.8758,-97.6048,Tower City,ND,,I-94 E,Incident on I-94 EB near MP 313 Expect delays.
+2,2020-11-11 23:58:00,48.1665,-98.984,Devils Lake,ND,7598, Highway 2,Stationary traffic on US-2 E from 66th Ave (US-2) to ND-19/4th St (US-2) due to accident.
+2,2020-12-29 02:59:40,47.4424,-98.2269,Cooperstown,ND,10871, Highway 200,Incident on ND-1 NB near MP 116 Expect delays.
+2,2020-10-16 15:28:30,46.8478,-96.883,West Fargo,ND,,Veterans Blvd,Incident on I-94 WB near MP 347 Expect delays.
+2,2020-11-20 08:32:19,46.7973,-100.9083,Mandan,ND,2111, 21st St NW,Incident on ND-6 NB near MP 66 Expect delays.
+2,2020-12-30 17:25:04.000000000,46.8322,-96.8403,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 62 Expect delays.
+3,2019-10-01 22:12:00,46.8473,-96.8194,Fargo,ND,,US-52 E,Two lanes blocked due to accident on I-94 Westbound at Exit 350 25th St.
+2,2020-12-29 21:04:50,46.7477,-100.8394,Mandan,ND,4600, Highway 1806,Incident on ND-1806 NB near MP 64 Expect delays.
+2,2020-11-12 20:14:18,48.7197,-101.2997,Lansford,ND,8901, Highway 83,Incident on US-83 NB near MP 234 Expect delays.
+2,2020-12-21 14:27:46,46.2617,-96.9983,Barney,ND,16261, Highway 13,Incident on ND-13 EB near MP 373 Expect delays.
+2,2020-12-17 00:54:19,47.8842,-97.0876,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 133 Expect delays.
+2,2020-12-12 15:56:30,46.9198,-97.6863,Tower City,ND,,I-94 W,Slow traffic on I-94 W - US-52 W from CR-1/CR-11/Exit 307 (I-94) to ND-32/Exit 302 (I-94) due to accident.
+2,2020-12-28 16:14:33,46.2257,-97.7571,Stirum,ND,8199, 126th Ave SE,Incident on ND-13 EB near MP 335 Expect delays.
+2,2020-12-20 05:27:22,47.9782,-101.594,Ryder,ND,25449, 198th St SW,Incident on ND-23 EB near MP 91 Expect delays.
+2,2020-11-09 17:54:17,46.9804,-96.8864,Harwood,ND,,I-29 N,Incident on I-29 NB near MP 75 Expect delays.
+2,2020-11-11 21:09:03,46.8645,-100.1357,Driscoll,ND,,I-94 E,Incident on I-94 EB near MP 194 Expect delays.
+2,2020-11-25 21:18:34,46.8389,-100.88,Mandan,ND,,I-94 W,Incident on I-94 WB near MP 153 Expect delays.
+2,2020-12-16 16:19:12,46.6449,-100.7176,Huff,ND,5396, Highway 1806,Incident on ND-1806 NB near MP 57 Expect delays.
+2,2020-11-24 09:44:30,47.5704,-97.0802,Buxton,ND,,I-29 N,Stationary traffic on I-29 N - US-81 N from ND-200/Exit 111 (I-29) to CR-21/Exit 118 (I-29) due to accident.
+2,2020-10-16 14:09:30,46.8476,-96.8902,West Fargo,ND,,I-94 W,Slow traffic on I-94 from 45th St/Exit 348 (I-94) to I-94/US-52/US-10/Exit 343 (I-94) due to accident.
+2,2020-12-29 21:24:50.000000000,46.917,-97.9693,Valley City,ND,,I-94 W,Incident on I-94 WB near MP 293 Expect delays.
+2,2020-11-12 15:54:15,46.6495,-97.2412,Leonard,ND,182, Highway 18 S,Incident on ND-18 NB near MP 57 Expect delays.
+2,2020-12-03 01:50:32,48.0503,-98.6238,Crary,ND,9269, Highway 2,Incident on US-2 WB near MP 282 Expect delays.
+2,2020-11-25 15:28:47,48.0866,-101.0581,Sawyer,ND,14095, Highway 52 S,Incident on US-52 EB near MP 111 Expect delays.
+2,2020-11-23 18:38:16,46.2621,-100.2328,Linton,ND,333, S Saint Paul Ave,Incident on US-83 NB near MP 25 Expect delays.
+2,2020-11-16 17:15:37,46.8645,-100.0399,Driscoll,ND,,I-94 E,Incident on I-94 EB near MP 195 Expect delays.
+2,2020-12-12 21:53:15,46.877,-102.5653,Gladstone,ND,,I-94 E,Incident on I-94 EB near MP 73 Expect delays.
+2,2020-12-22 19:33:06,47.5008,-97.0873,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 113 Expect delays.
+2,2020-12-20 16:27:30,46.8768,-97.1375,Casselton,ND,,I-94 W,Incident on I-94 WB near MP 335 Expect delays.
+2,2020-12-30 17:05:04,46.8488,-96.7945,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 352 Expect delays.
+2,2020-11-29 08:04:28,46.0795,-97.3012,Geneseo,ND,14799, 92nd St SE,Incident on ND-11 EB near MP 146 Expect delays.
+2,2020-12-22 19:33:06,47.5008,-97.0873,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 113 Expect delays.
+4,2016-12-06 08:53:52,48.0054,-97.8596,Niagara,ND,4791, US 2,Closed between ND-32/Niagara St and between 48th St NE and 22nd Ave NE - Road closed due to accident.
+2,2020-10-20 14:33:00,47.805,-103.5192,Arnegard,ND,2701, County Road 17,Stationary traffic on US-85 from ND-23 Alt/Main St (US-85) to ND-68 (US-85) due to accident.
+2,2020-12-29 17:09:48,46.8477,-96.8619,Fargo,ND,,45th St S,Incident on I-94 WB near MP 348 Expect delays.
+2,2020-11-11 20:54:02,48.3548,-100.0005,Rugby,ND,,US-2 E,Incident on US-2 EB near MP 211 Expect delays.
+2,2020-12-29 19:29:49,46.8213,-100.836,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 157 Expect delays.
+2,2020-12-18 05:26:50.000000000,46.6298,-97.5989,Enderlin,ND,13696, 54th St SE,Incident on ND-46 EB near MP 84 Expect delays.
+2,2020-11-09 17:01:09,46.2532,-97.3636,Milnor,ND,7999, 145th Ave SE,Incident on ND-13 EB near MP 354 Expect delays.
+2,2020-12-27 20:39:22,46.8877,-96.8396,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 66 Expect delays.
+2,2020-11-06 00:55:03,48.6943,-102.0825,Kenmare,ND,43898, 506th St NW,Incident on US-52 EB near MP 42 Expect delays.
+2,2020-12-22 19:33:06,47.5008,-97.0873,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 113 Expect delays.
+2,2020-11-16 15:55:37,46.8614,-101.2864,New Salem,ND,,I-94 W,Incident on I-94 WB near MP 131 Expect delays.
+2,2020-11-10 04:39:23,46.866,-101.9288,Glen Ullin,ND,,I-94 W,Incident on I-94 WB near MP 103 Expect delays.
+2,2018-11-10 18:53:01,47.9905,-97.0926,Grand Forks,ND,,I-29 S,Between US-81-BL/Washington St/Exit 145 and US-2/Gateway Dr/Exit 141 - Accident.
+2,2020-11-16 15:30:37,46.8764,-101.4179,New Salem,ND,4600, 37th St SW,Incident on ND-31 NB near MP 80 Expect delays.
+2,2020-10-23 09:31:52,46.877,-99.4688,Tappen,ND,,I-94 E,Incident on I-94 EB near MP 223 Expect delays.
+2,2020-12-30 01:59:53,46.9341,-96.8487,Fargo,ND,4031, 40th Ave N,Incident on I-29 NB near MP 69 Expect delays.
+2,2020-11-11 22:14:03,48.1324,-103.7235,Williston,ND,4955, Highway 85,Incident on US-85 SB near MP 183 Expect delays.
+2,2020-12-11 20:27:58,46.8665,-101.945,Hebron,ND,,I-94 E,Incident on I-94 EB near MP 103 Expect delays.
+2,2020-11-16 16:40:38,46.8614,-101.5703,New Salem,ND,,I-94 E,Incident on I-94 EB near MP 123 Expect delays.
+2,2020-12-21 02:27:38,46.7635,-100.9015,Mandan,ND,4499, 21st St NW,Incident on ND-6 NB near MP 63 Expect delays.
+2,2020-11-27 06:38:55,48.2964,-100.6802,Towner,ND,446, Highway 2 W,Incident on US-2 EB near MP 177 Expect delays.
+2,2020-10-26 12:30:26,46.7619,-99.3425,Medina,ND,4500, 53rd Ave SE,Incident on ND-30 near MP 35 Expect delays.
+2,2020-11-05 03:34:41,48.1187,-101.1291,Minot,ND,11255, Highway 52 S,Incident on US-52 EB near MP 106 Expect delays.
+2,2020-11-07 15:40:36.000000000,46.8758,-97.2584,Mapleton,ND,,I-94 E,Incident on I-94 EB near MP 330 Expect delays.
+3,2019-07-31 10:35:16,46.8757,-97.3926,Wheatland,ND,,I-94 E,At 147th Ave/Exit 322 - Chemical spillage accident. Roadway reduced to 1 lane.
+2,2020-11-20 11:12:21,47.8043,-103.0736,Watford City,ND,11616, Highway 23,Incident on ND-23 EB near MP 10 Expect delays.
+2,2020-11-12 02:09:06,47.507,-97.0905,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 112 Expect delays.
+2,2020-12-18 22:37:02,46.9491,-103.6614,Sentinel Butte,ND,,I-94 E,Incident on I-94 EB near MP 21 Expect delays.
+2,2020-12-13 05:53:19,47.7789,-102.7178,Mandaree,ND,9901, Highway 73,Incident on ND-22 NB near MP 141 Expect delays.
+2,2020-12-23 14:43:19.000000000,46.9066,-98.1851,Valley City,ND,,I-94 E,Incident on I-94 EB near MP 285 Expect delays.
+2,2018-05-03 09:07:55,48.2339,-103.6258,Williston,ND,,Energy St,Between 136th Ave and US-2/US-85/Dakota Pkwy W - Accident.
+2,2020-12-30 01:24:53,46.8499,-96.908,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 346 Expect delays.
+2,2020-10-26 13:11:14,47.0004,-101.045,Center,ND,,Highway 25,Incident on ND-25 near MP 11 Expect delays.
+2,2020-12-02 03:30:30,46.8921,-98.9926,Cleveland,ND,,I-94 W,Stationary traffic on I-94 W from 70th Ave/Exit 245 (I-94) to 67 1/2 Ave/I-94 Service Rd (I-94) due to accident.
+2,2020-10-22 14:23:30,46.2505,-97.4522,Milnor,ND,14057, Highway 13,Incident on ND-13 EB near MP 350 Expect delays.
+2,2020-11-07 23:20:42.000000000,46.8552,-102.1967,Richardton,ND,,Highway 10 E,Incident on I-94 EB near MP 96 Expect delays.
+2,2020-12-12 07:23:06,46.8668,-101.9455,Hebron,ND,,I-94 W,Incident on I-94 WB near MP 102 Expect delays.
+2,2020-11-26 03:18:38,47.2153,-100.7491,Wilton,ND,2601, 370th Ave NE,Incident on ND-41 NB near MP 5 Expect delays.
+2,2020-11-24 07:33:24,46.8472,-96.8202,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 351 Expect delays.
+2,2020-10-23 11:31:30,46.8784,-99.4719,Tappen,ND,,I-94 E,Slow traffic on I-94 from Exit 221 (I-94) to ND-30/Exit 228 (I-94) due to accident.
+2,2020-11-16 15:55:37,46.8614,-101.2864,New Salem,ND,,I-94 W,Incident on I-94 WB near MP 131 Expect delays.
+2,2020-11-08 22:40:57,48.1091,-103.7171,Williston,ND,4781, US Highway 85,Incident on US-85 SB near MP 181 Expect delays.
+2,2020-11-13 08:54:26,46.8473,-96.8481,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 350 Expect delays.
+2,2020-11-19 04:02:01,46.9424,-103.8237,Sentinel Butte,ND,,I-94 E,Incident on I-94 EB near MP 12 Expect delays.
+2,2020-12-17 01:29:19,47.2417,-97.0115,Grandin,ND,,I-29 N,Incident on I-29 NB near MP 94 Expect delays.
+2,2018-05-04 07:37:10,46.4555,-100.9272,Solen,ND,6600, Highway 6,Between ND-21/22nd Ave and Solen - Accident.
+2,2020-11-27 18:04:03,47.933,-97.2605,Emerado,ND,2000, US 2,Incident on US-2 WB near MP 347 Expect delays.
+2,2020-12-12 22:13:15,46.8469,-100.9135,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 152 Expect delays.
+2,2020-12-12 19:03:13,46.8618,-101.819,Glen Ullin,ND,,I-94 E,Incident on I-94 EB near MP 110 Expect delays.
+2,2020-11-12 01:19:05,47.9183,-97.0937,Grand Forks,ND,,I-29 S,Incident on ND-297 EB near MP 0 Expect delays.
+2,2020-11-04 17:59:36,46.7602,-102.7898,Dickinson,ND,11098, 45th St SW,Incident on ND-22 NB near MP 64 Expect delays.
+2,2020-11-29 01:29:24,48.2444,-100.8436,Granville,ND,,12th Ave N,Incident on US-2 WB near MP 168 Expect delays.
+2,2020-11-27 03:08:53,46.8773,-97.0322,Mapleton,ND,,I-94 E,Incident on I-94 EB near MP 340 Expect delays.
+2,2020-10-16 13:46:18.000000000,46.2981,-101.965,New Leipzig,ND,,77th St SW,Incident on ND-49 near MP 24 Expect delays.
+2,2020-10-20 14:29:53,47.805,-103.5527,Alexander,ND,,Highway 85 N,Incident on US-85 NB near MP 154 Expect delays.
+2,2020-12-03 00:30:31,46.8616,-101.6331,New Salem,ND,,I-94 W,Incident on I-94 WB near MP 117 Expect delays.
+2,2020-11-16 15:15:36,46.2257,-98.0486,Oakes,ND,10922, 82nd St SE,Incident on ND-13 EB near MP 321 Expect delays.
+2,2020-11-24 18:23:32.000000000,48.2411,-103.6573,Williston,ND,,US Highway 85,Incident on US-85 SB near MP 195 Expect delays.
+2,2020-11-07 20:25:39,47.6689,-97.0801,Reynolds,ND,,I-29 S,Incident on I-29 SB near MP 120 Expect delays.
+2,2020-11-23 02:23:04,46.877,-96.9506,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 345 Expect delays.
+2,2020-12-16 18:34:15,46.877,-102.5653,Gladstone,ND,,I-94 E,Incident on I-94 EB near MP 77 Expect delays.
+2,2020-10-20 06:58:28,46.9424,-103.8237,Sentinel Butte,ND,,I-94 E,Incident on I-94 EB near MP 11 Expect delays.
+2,2020-11-12 01:21:30,47.8604,-97.0874,Grand Forks,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from ND-15/Exit 130 (I-29) to US-81 Bus/32nd Ave/Exit 138 (I-29) due to accident.
+2,2020-11-15 02:19:55,46.8894,-103.0043,South Heart,ND,,I-94 W,Incident on I-94 WB near MP 51 Expect delays.
+2,2020-11-19 15:12:07,47.9469,-97.595,Larimore,ND,3565, US 2,Incident on US-2 EB near MP 332 Expect delays.
+2,2020-11-17 21:45:57,47.6132,-102.7701,Killdeer,ND,,Highway 22,Incident on ND-22 NB near MP 129 Expect delays.
+2,2020-12-15 23:34:00,46.3552,-98.7038,Edgeley,ND,7300, Highway 281,Incident on US-281 NB near MP 31 Expect delays.
+2,2020-12-29 23:59:52.000000000,46.8896,-98.6769,Jamestown,ND,,I-94 E,Incident on I-94 EB near MP 261 Expect delays.
+2,2020-11-06 04:00:06,48.0579,-103.6611,Alexander,ND,4423, US Highway 85,Incident on US-85 SB near MP 177 Expect delays.
+2,2020-11-25 05:18:41,46.9808,-102.7897,Dickinson,ND,3221, Highway 22,Incident on ND-22 NB near MP 78 Expect delays.
+2,2020-12-30 14:10:02,46.8888,-102.7383,Dickinson,ND,,I-94 W,Incident on I-94 WB near MP 62 Expect delays.
+2,2020-12-30 02:49:54,48.0353,-98.3278,Lakota,ND,10620, Highway 2,Incident on US-2 EB near MP 296 Expect delays.
+2,2020-11-17 22:55:58,48.034,-97.1373,Manvel,ND,,I-29 N,Incident on I-29 NB near MP 152 Expect delays.
+2,2020-12-30 01:54:53,46.8774,-97.0527,Mapleton,ND,,I-94 W,Incident on I-94 WB near MP 339 Expect delays.
+2,2020-12-30 17:00:03.000000000,47.9343,-97.0937,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 141 Expect delays.
+2,2020-11-24 09:43:26,47.6028,-97.0799,Buxton,ND,,I-29 N,Incident on I-29 NB near MP 117 Expect delays.
+2,2018-05-15 09:20:05,47.7468,-103.2832,Watford City,ND,2301, Highway 85 N,At Medora - Accident.
+2,2020-12-22 20:08:07,46.8313,-100.7778,Bismarck,ND,,I-94 E,Incident on I-94 EB near MP 159 Expect delays.
+2,2020-12-11 20:27:58,46.8619,-102.0491,Hebron,ND,,I-94 E,Incident on I-94 EB near MP 103 Expect delays.
+2,2020-12-02 03:30:16,46.8921,-98.9926,Cleveland,ND,,I-94 W,Incident on I-94 WB near MP 243 Expect delays.
+2,2020-11-24 03:48:22.000000000,46.6418,-100.9043,Mandan,ND,5339, Highway 6,Incident on ND-6 NB near MP 55 Expect delays.
+2,2020-12-29 07:14:43,46.8907,-102.8845,Dickinson,ND,,I-94 W,Incident on I-94 WB near MP 56 Expect delays.
+2,2020-11-12 01:49:06,48.0209,-98.1324,Michigan,ND,11437, Highway 2,Incident on US-2 WB near MP 305 Expect delays.
+2,2020-11-12 02:54:06,48.2339,-97.189,Minto,ND,,I-29 N,Incident on I-29 NB near MP 157 Expect delays.
+2,2020-10-22 16:23:56,46.9068,-98.2335,Sanborn,ND,,I-94 W,Incident on I-94 WB near MP 278 Expect delays.
+2,2020-12-19 15:07:12,47.974,-102.729,New Town,ND,4363, Highway 22,Incident on ND-22 NB near MP 156 Expect delays.
+2,2020-12-30 17:00:03,47.9141,-97.0937,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 141 Expect delays.
+2,2020-12-21 11:17:44,46.5406,-96.8253,Walcott,ND,,I-29 N,Incident on I-29 NB near MP 42 Expect delays.
+2,2020-10-22 15:29:19,46.854,-102.2019,Richardton,ND,,Highway 10 E,Incident on I-94 WB near MP 90 Expect delays.
+2,2018-05-15 10:52:20,46.1099,-98.0907,Oakes,ND,,90th St SE,At CR-3/88th St SE/Main Ave - Accident.
+2,2020-12-12 19:33:13,46.795,-100.7946,Bismarck,ND,,S Washington St,Incident on ND-810 WB near MP 1 Expect delays.
+2,2020-11-27 20:54:04,46.8925,-98.9128,Jamestown,ND,,I-94 W,Incident on I-94 WB near MP 247 Expect delays.
+2,2020-11-19 03:52:00,47.4847,-102.2909,Halliday,ND,558, Highway 8,Incident on ND-8 NB near MP 125 Expect delays.
+2,2020-12-02 21:05:29,46.8213,-100.836,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 157 Expect delays.
+2,2020-11-28 00:04:07,46.1234,-98.0907,Oakes,ND,8904, 110th Ave SE,Incident on ND-1 NB near MP 16 Expect delays.
+2,2020-12-12 20:28:13,48.0847,-101.0252,Velva,ND,14799, Highway 52 S,Incident on US-52 EB near MP 112 Expect delays.
+2,2020-12-20 03:47:21,47.9225,-101.2917,Max,ND,30298, Highway 83 S,Incident on US-83 SB near MP 179 Expect delays.
+2,2020-11-16 15:56:00,46.8614,-101.2864,New Salem,ND,,I-94 W,Slow traffic on I-94 W from CR-84/Exit 134 (I-94) to ND-31/Exit 127 (I-94) due to accident.
+2,2020-11-30 20:14:53,47.7707,-97.078,Thompson,ND,,I-29 S,Incident on I-29 SB near MP 127 Expect delays.
+4,2019-05-10 13:15:46,46.8882,-102.9943,Dickinson,ND,,I-94 W,Closed between CMC 4511/Exit 51 and US-85/Exit 42 - Road closed due to accident.
+2,2020-11-12 02:54:06,48.1387,-97.1907,Manvel,ND,,I-29 N,Incident on I-29 NB near MP 157 Expect delays.
+2,2020-10-21 12:49:35,46.8614,-101.4126,New Salem,ND,,I-94 W,Incident on I-94 WB near MP 127 Expect delays.
+2,2020-12-17 15:59:29,48.017,-102.5089,New Town,ND,4537, Highway 1804,Incident on ND-1804 NB near MP 250 Expect delays.
+2,2020-12-30 01:29:53,46.9341,-96.8487,Fargo,ND,4031, 40th Ave N,Incident on I-29 NB near MP 70 Expect delays.
+2,2020-12-30 17:45:04,46.8407,-96.8406,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 63 Expect delays.
+2,2020-10-23 09:31:52,46.8761,-99.4672,Medina,ND,,I-94 E,Incident on I-94 EB near MP 223 Expect delays.
+3,2018-07-12 11:11:45,46.8771,-97.0528,Mapleton,ND,,163rd Ave SE,Accident on I-94 Eastbound before Exit 338 163rd Ave.
+2,2020-11-12 02:59:07,47.8027,-97.0776,Thompson,ND,,I-29 N,Incident on I-29 NB near MP 132 Expect delays.
+2,2020-11-07 20:25:39,47.6689,-97.0801,Reynolds,ND,,I-29 S,Incident on I-29 SB near MP 120 Expect delays.
+2,2020-11-24 09:43:26,47.5852,-97.0809,Buxton,ND,,I-29 N,Incident on I-29 NB near MP 117 Expect delays.
+2,2020-12-27 17:14:20,47.9291,-97.0937,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 140 Expect delays.
+2,2020-12-30 19:45:05,46.8474,-96.8536,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 349 Expect delays.
+2,2020-11-09 02:51:00,47.546,-102.2108,Halliday,ND,934, Highway 8,Incident on ND-8 NB near MP 131 Expect delays.
+2,2020-11-25 01:18:37,46.8705,-96.8416,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 65 Expect delays.
+4,2019-03-27 09:11:43,46.3858,-100.7896,Solen,ND,,Highway 24,Closed at Solen - Road closed due to accident. Flooding.
+2,2020-11-14 16:44:48,47.9059,-102.7449,Mandaree,ND,,Highway 22,Incident on ND-22 NB near MP 151 Expect delays.
+2,2018-05-15 07:47:05,46.5255,-103.1961,Amidon,ND,6102, 133rd Ave SW,Between ND-21 and Scranton - Accident.
+2,2020-12-21 04:07:40,46.8851,-102.7316,Dickinson,ND,,I-94 E,Incident on I-94 EB near MP 68 Expect delays.
+2,2020-12-22 22:03:08,46.8755,-97.4879,Buffalo,ND,,I-94 E,Incident on I-94 EB near MP 319 Expect delays.
+2,2020-12-19 22:02:18,46.8909,-102.8361,Dickinson,ND,,I-94 W,Incident on I-94 WB near MP 59 Expect delays.
+4,2019-02-07 12:38:12,46.8477,-96.8687,Fargo,ND,,I-94 W,Closed between 45th St/Exit 348 and ND-18/Exit 331 - Road closed due to accident. Snowfall.
+2,2020-10-16 14:12:01,46.8777,-96.9546,West Fargo,ND,,I-94 W,Incident on I-94 WB near MP 343 Expect delays.
+2,2020-12-14 23:48:45,46.7198,-100.9006,Mandan,ND,2055, 48th St SW,Incident on ND-6 NB near MP 61 Expect delays.
+2,2020-12-30 00:49:52,47.9179,-97.0937,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 140 Expect delays.
+2,2020-11-26 04:18:38,46.8854,-99.1173,Cleveland,ND,,I-94 E,Incident on I-94 EB near MP 242 Expect delays.
+2,2018-05-04 07:37:10,46.4845,-100.9028,Solen,ND,6402, Highway 6,Between Solen and ND-21/22nd Ave - Accident.
+2,2020-11-11 23:58:00,48.1716,-98.9964,Devils Lake,ND,7544, Highway 2,Slow traffic on US-2 E from 66th Ave (US-2) to ND-19/4th St (US-2) due to accident.
+3,2019-07-25 14:18:33,46.8473,-96.8194,Fargo,ND,,US-52 E,Right lane blocked due to accident on I-94 Westbound at Exit 350 25th St.
+2,2020-11-06 01:02:00,48.7056,-102.0825,Kenmare,ND,45101, 506th St NW,Stationary traffic on US-52 from 506th St (US-52) to CR-2/422nd Ave/6th St (US-52) due to accident.
+2,2020-12-08 03:51:56,47.8047,-103.3905,Arnegard,ND,,Highway 85 N,Incident on US-85 SB near MP 147 Expect delays.
+2,2020-11-23 02:23:04,46.877,-96.9506,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 345 Expect delays.
+2,2020-11-14 05:04:40,47.4577,-99.5863,Bowdon,ND,299, 45th Ave NE,Incident on US-52 EB near MP 201 Expect delays.
+2,2020-12-02 00:00:14,46.8367,-100.7059,Bismarck,ND,,I-94 E,Incident on I-94 EB near MP 164 Expect delays.
+2,2020-11-19 01:11:30,46.8796,-96.8405,Fargo,ND,,I-29 S,Stationary traffic on US-81 S - I-29 S from 12th Ave/Exit 66 (I-29) to 13th Ave/38th St/Exit 64 (I-29) due to accident.
+2,2020-12-22 19:52:30,47.5008,-97.0873,Cummings,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from ND-200/Exit 111 (I-29) to CR-21/Exit 118 (I-29) due to accident.
+2,2020-12-27 03:49:12,46.849,-96.7943,Fargo,ND,,US-52 W,Incident on I-94 WB near MP 352 Expect delays.
+2,2020-12-13 03:26:30.000000000,46.8797,-102.5761,Gladstone,ND,,I-94 W,Slow traffic on I-94 W from Exit 72 (I-94) to I-94 Bus Loop/Exit 64 (I-94) due to accident.
+2,2020-12-17 00:54:19,47.8842,-97.0876,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 133 Expect delays.
+2,2020-12-12 19:18:13,48.0008,-101.2907,Max,ND,22098, Highway 83 S,Incident on US-83 SB near MP 184 Expect delays.
+2,2020-12-11 15:57:54,46.8313,-100.7682,Bismarck,ND,,I-94 E,Incident on I-94 EB near MP 160 Expect delays.
+2,2020-12-12 06:03:04,46.9168,-97.9697,Valley City,ND,,I-94 E,Incident on I-94 EB near MP 294 Expect delays.
+3,2020-05-30 22:28:03,46.8923,-98.629,Jamestown,ND,,I-94 E,Two lanes blocked due to accident on I-94 Westbound at Exit 262 87th Ave.
+2,2020-10-22 16:23:56,46.9068,-98.2335,Sanborn,ND,,I-94 W,Incident on I-94 WB near MP 278 Expect delays.
+2,2020-11-25 18:38:33,47.9478,-103.1981,Watford City,ND,3597, Highway 1806 W,Incident on ND-1806 NB near MP 301 Expect delays.
+2,2020-12-08 05:46:58,48.3123,-101.2955,Minot,ND,,72nd Ave NE,Incident on US-83 NB near MP 206 Expect delays.
+2,2020-10-23 09:31:52,46.877,-99.4688,Tappen,ND,,I-94 E,Incident on I-94 EB near MP 223 Expect delays.
+2,2020-12-30 19:25:05,46.8473,-96.8972,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 347 Expect delays.
+2,2020-11-24 05:48:23.000000000,46.9202,-97.9085,Oriska,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-10-18 18:36:01,46.8798,-99.5685,Tappen,ND,,I-94 W,Incident on I-94 WB near MP 217 Expect delays.
+2,2020-11-03 17:46:24,47.9127,-102.738,Mandaree,ND,,Highway 22,Incident on ND-22 NB near MP 152 Expect delays.
+2,2020-11-09 01:40:59,47.8484,-103.6585,Alexander,ND,,30th St NW,Incident on US-85 NB near MP 163 Expect delays.
+2,2019-02-17 10:01:14,46.2831,-99.1755,Fredonia,ND,,Highway 13,At CR-9/61st Ave SE - Accident. Lane blocked.
+4,2016-09-06 00:26:23,46.829,-100.8712,Mandan,ND,,Mandan Ave,Closed between I-94-BL and Main St E - Road closed due to accident.
+2,2020-11-16 09:55:33,46.8633,-101.0032,Mandan,ND,,I-94 W,Incident on I-94 WB near MP 147 Expect delays.
+2,2020-12-30 19:50:05,47.9868,-97.093,Grand Forks,ND,,I-29 S,Incident on I-29 SB near MP 144 Expect delays.
+2,2020-09-18 14:20:46,48.6147,-103.9376,Grenora,ND,150, 1/2 Ave NW,Incident on ND-50 near MP 5 Expect delays.
+2,2020-11-06 06:30:09,47.0155,-96.9076,Harwood,ND,,I-29 N,Incident on I-29 NB near MP 77 Expect delays.
+2,2020-12-22 20:18:07,46.8785,-99.7561,Dawson,ND,,I-94 W,Incident on I-94 WB near MP 206 Expect delays.
+2,2020-12-09 22:22:23,47.8606,-103.9619,Cartwright,ND,,Highway 200,Incident on ND-200 EB near MP 4 Expect delays.
+2,2020-11-25 01:18:37,46.8705,-96.8416,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 65 Expect delays.
+2,2020-11-09 17:31:10,46.9374,-96.8521,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 71 Expect delays.
+2,2020-11-15 03:34:56,46.888,-102.9943,Dickinson,ND,,I-94 E,Incident on I-94 EB near MP 52 Expect delays.
+2,2020-11-23 22:23:30,47.4546,-99.1174,Carrington,ND,,4th Ave N,Stationary traffic on US-281 S - US-52 W - ND-200 - US-281 N - US-52 E from ND-9/6th St (ND-281/US-281) to US-52/ND-200 (US-281) due to accident.
+2,2020-11-24 05:48:23,46.9203,-97.9187,Valley City,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-12-17 01:29:19,47.2417,-97.0115,Grandin,ND,,I-29 N,Incident on I-29 NB near MP 94 Expect delays.
+2,2020-11-25 01:11:00,46.8796,-96.8405,Fargo,ND,,I-29 S,Stationary traffic on US-81 S - I-29 S from 12th Ave/Exit 66 (I-29) to 13th Ave/38th St/Exit 64 (I-29) due to accident.
+2,2020-12-30 17:55:04,46.8475,-96.9014,West Fargo,ND,,I-94 E,Incident on I-94 EB near MP 347 Expect delays.
+2,2020-12-12 15:33:10,46.9198,-97.6863,Tower City,ND,,I-94 W,Incident on I-94 WB near MP 305 Expect delays.
+4,2019-02-07 12:38:12,46.874,-97.2062,Mapleton,ND,,US-52 E,Closed between ND-18/Exit 331 and 45th St/Exit 348 - Road closed due to accident. Snowfall.
+2,2020-12-01 18:50:10,48.6155,-97.8621,Edinburg,ND,8301, Highway 32,Incident on ND-32 NB near MP 208 Expect delays.
+2,2020-11-05 11:29:48,46.003,-102.5803,Hettinger,ND,398, Highway 12 E,Incident on US-12 EB near MP 77 Expect delays.
+2,2020-11-10 04:39:23,46.8621,-101.8282,Glen Ullin,ND,,I-94 W,Incident on I-94 WB near MP 103 Expect delays.
+2,2019-02-15 14:51:32,46.2928,-99.1485,Fredonia,ND,,Highway 13,At Venturia - Accident. Lane blocked.
+2,2018-05-15 09:41:50,46.9089,-96.8396,Fargo,ND,,US-81 S,At US-81-BR/19th Ave/Exit 67 - Accident.
+4,2019-05-10 13:15:46,46.8967,-103.1957,Belfield,ND,,I-94 E,Closed between US-85/Exit 42 and CMC 4511/Exit 51 - Road closed due to accident.
+2,2020-11-25 15:23:47,46.4587,-100.2736,Hazelton,ND,668, 66th St SE,Incident on US-83 NB near MP 40 Expect delays.
+2,2020-11-06 22:45:21,48.139,-104.0238,Williston,ND,15462, US Highway 2,Incident on US-2 EB near MP 1 Expect delays.
+2,2020-09-23 14:59:26.000000000,47.6942,-102.7172,Mandaree,ND,1929, Highway 22,Incident on ND-22 NB near MP 135 Expect delays.
+2,2020-12-09 01:47:10,48.3118,-100.556,Towner,ND,126, Highway 2 E,Incident on US-2 EB near MP 184 Expect delays.
+2,2020-11-11 01:33:50,47.5438,-98.177,Cooperstown,ND,,111th Ave NE,Incident on ND-65 EB near MP 8 Expect delays.
+3,2019-02-04 18:27:57,47.9332,-97.0936,Grand Forks,ND,,Gateway Dr,Left lane closed due to accident on I-29 Southbound at Exit 141 US-2 Gateway Dr.
+2,2020-11-12 00:04:04,48.1652,-98.9766,Devils Lake,ND,7632, Highway 2,Incident on US-2 EB near MP 263 Expect delays.
+2,2020-12-01 20:20:11,48.0547,-100.9304,Velva,ND,2, Highway 52 E,Incident on US-52 EB near MP 117 Expect delays.
+2,2020-12-17 02:24:20,48.4738,-97.1902,Drayton,ND,,I-29 N,Incident on I-29 NB near MP 180 Expect delays.
+2,2020-11-12 02:09:06,47.507,-97.0905,Cummings,ND,,I-29 N,Incident on I-29 NB near MP 112 Expect delays.
+2,2020-12-03 02:40:32,46.8614,-101.2864,New Salem,ND,,I-94 W,Incident on I-94 WB near MP 134 Expect delays.
+2,2020-12-29 19:34:49,46.8721,-99.8217,Dawson,ND,,I-94 E,Incident on I-94 EB near MP 206 Expect delays.
+2,2020-12-15 15:18:55,46.4873,-100.085,Braddock,ND,,16th Ave SE,Incident on ND-34 EB near MP 11 Expect delays.
+2,2020-12-30 21:35:06,46.8556,-96.8407,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 64 Expect delays.
+2,2018-05-08 22:55:18,46.8621,-101.8346,Glen Ullin,ND,,I-94 W,At CR-139/Exit 102 - Accident.
+2,2018-05-10 09:04:19,46.9136,-98.077,Valley City,ND,,I-94 W,At ND-1/Exit 288 - Accident.
+2,2020-11-24 05:48:23,46.9203,-97.9187,Valley City,ND,,I-94 E,Incident on I-94 EB near MP 298 Expect delays.
+2,2020-11-28 00:39:07,47.7704,-97.0775,Thompson,ND,,I-29 N,Incident on I-29 NB near MP 130 Expect delays.
+2,2020-10-23 08:30:30,46.8761,-99.4672,Medina,ND,,I-94 E,Stationary traffic on I-94 from Exit 221 (I-94) to ND-30/Exit 228 (I-94) due to accident.
+2,2020-11-12 16:09:15,48.1237,-97.2345,Manvel,ND,,Highway 81,Incident on US-81 NB near MP 168 Expect delays.
+2,2020-12-30 21:40:06,46.8316,-100.7776,Bismarck,ND,,I-94 W,Incident on I-94 WB near MP 159 Expect delays.
+2,2020-10-20 15:35:40,47.6027,-99.9266,Hurdsfield,ND,1299, Highway 3,Incident on ND-3 near MP 147 Expect delays.
+2,2020-11-27 14:29:01,46.8627,-101.7859,Glen Ullin,ND,,I-94 W,Incident on I-94 WB near MP 109 Expect delays.
+2,2020-11-08 00:30:42,45.9907,-100.4811,Strasburg,ND,9864, Highway 1804,Incident on ND-1804 NB near MP 6 Expect delays.
+2,2020-12-29 21:54:51,46.8612,-101.413,New Salem,ND,,I-94 E,Incident on I-94 EB near MP 131 Expect delays.
+2,2020-12-12 02:08:01,46.8647,-100.0399,Driscoll,ND,,I-94 W,Incident on I-94 WB near MP 192 Expect delays.
+2,2020-12-27 19:14:21,47.7767,-97.0775,Thompson,ND,,I-29 N,Incident on I-29 NB near MP 133 Expect delays.
+2,2020-12-29 04:44:41,46.3152,-100.9444,Solen,ND,7569, Highway 6,Incident on ND-6 NB near MP 32 Expect delays.
+2,2020-12-29 19:29:49,46.8214,-100.8452,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 156 Expect delays.
+2,2020-11-24 09:43:26,47.6028,-97.0799,Buxton,ND,,I-29 N,Incident on I-29 NB near MP 117 Expect delays.
+2,2020-11-16 15:35:36,46.7499,-100.8576,Mandan,ND,1828, 46th St SW,Incident on ND-1806 NB near MP 65 Expect delays.
+2,2018-05-03 13:58:10,46.8222,-100.9049,Mandan,ND,274, 10th Ave SW,At I-94-BL/W Main St/8th Ave NW - Accident.
+2,2020-12-01 05:35:01,46.8614,-101.276,New Salem,ND,,I-94 E,Incident on I-94 EB near MP 135 Expect delays.
+2,2020-12-20 22:17:34,47.9131,-97.6237,Larimore,ND,874, Towner Ave,Incident on ND-18 NB near MP 164 Expect delays.
+2,2020-11-25 02:43:38.000000000,46.8656,-96.8419,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 64 Expect delays.
+2,2020-11-12 01:21:30,47.8575,-97.0874,Grand Forks,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from ND-15/Exit 130 (I-29) to US-81 Bus/32nd Ave/Exit 138 (I-29) due to accident.
+2,2020-12-01 22:05:12,48.1402,-103.6798,Williston,ND,13852, US Highway 2,Incident on US-2 EB near MP 17 Expect delays.
+3,2018-08-07 17:39:04,46.878,-99.3002,Medina,ND,,I-94 W,Accident on I-94 Eastbound at Exit 230 County Hwy-68 55th Ave.
+2,2020-10-25 11:35:32,46.8922,-103.3798,Medora,ND,,I-94 W,Incident on I-94 WB near MP 33 Expect delays.
+2,2020-10-17 11:46:14,46.4745,-96.8307,Colfax,ND,,I-29 N,Incident on I-29 NB near MP 41 Expect delays.
+2,2020-11-19 01:11:30,46.8796,-96.8405,Fargo,ND,,I-29 S,Stationary traffic on US-81 S - I-29 S from 12th Ave/Exit 66 (I-29) to 13th Ave/38th St/Exit 64 (I-29) due to accident.
+2,2020-12-07 04:01:40,46.2832,-99.225,Lehr,ND,,55th Ave SE,Incident on ND-13 EB near MP 250 Expect delays.
+2,2020-12-17 01:38:30,47.2355,-97.0083,Grandin,ND,,I-29 N,Slow traffic on I-29 N - US-81 N from CR-26/Exit 86 (I-29) to ND-200A/Exit 100 (I-29) due to accident.
+2,2018-05-04 13:03:25,47.9331,-97.1139,Grand Forks,ND,,Gateway Dr,At Grand Forks - Accident.
+2,2020-11-15 20:55:14,46.8923,-98.4771,Jamestown,ND,,I-94 E,Incident on I-94 EB near MP 271 Expect delays.
+2,2020-11-15 01:44:54,48.2396,-100.8591,Granville,ND,1288, Highway 2 W,Incident on US-2 EB near MP 167 Expect delays.
+2,2020-11-16 17:10:38,46.8632,-101.0129,Mandan,ND,,I-94 W,Incident on I-94 WB near MP 147 Expect delays.
+2,2020-10-20 14:46:06,46.2348,-102.871,Reeder,ND,,17th Ave NW,Incident on ND-22 NB near MP 26 Expect delays.
+2,2020-10-20 16:32:48,46.9527,-100.2868,Sterling,ND,13699, Highway 14,Incident on ND-14 near MP 9 Expect delays.
+2,2020-12-09 01:57:10.000000000,46.3694,-97.66,Lisbon,ND,7203, Highway 32,Incident on ND-32 NB near MP 32 Expect delays.
+2,2020-12-11 20:27:58.000000000,46.8619,-102.0491,Hebron,ND,,I-94 E,Incident on I-94 EB near MP 103 Expect delays.
+2,2020-11-18 03:11:01,46.8473,-96.8481,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 350 Expect delays.
+2,2020-10-15 17:22:48.000000000,48.2013,-97.1889,Minto,ND,,I-29 N,Incident on I-29 NB near MP 162 Expect delays.
+2,2020-12-20 21:37:34,46.8842,-99.2412,Medina,ND,,I-94 W,Incident on I-94 WB near MP 231 Expect delays.
+2,2020-12-30 19:35:05,46.876,-96.8409,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 65 Expect delays.
+2,2020-12-21 13:17:45,47.4576,-99.4367,Sykeston,ND,298, 52nd Ave NE,Incident on US-52 EB near MP 208 Expect delays.
+2,2020-12-08 15:02:03,48.3417,-103.0144,Tioga,ND,,Highway 2,Incident on US-2 EB near MP 61 Expect delays.
+2,2020-12-07 02:46:39,46.2491,-99.9283,Linton,ND,2138, State Highway 13,Incident on ND-13 EB near MP 215 Expect delays.
+2,2018-02-07 14:51:42,46.862,-101.7125,Glen Ullin,ND,,I-94 W,At 60th Ave/Exit 113 - Accident. Roadway reduced to 1 lane. repairs in progress.
+2,2020-12-12 19:23:13,47.2333,-102.7708,Manning,ND,1295, Highway 22,Incident on ND-22 NB near MP 96 Expect delays.
+2,2020-12-30 19:35:05,46.876,-96.8409,Fargo,ND,,I-29 S,Incident on I-29 SB near MP 65 Expect delays.
+2,2020-11-06 23:20:22,46.9192,-97.7453,Oriska,ND,,I-94 E,Incident on I-94 EB near MP 307 Expect delays.
+2,2020-11-19 00:41:58,47.7448,-98.1397,McVille,ND,11400, 23rd St NE,Incident on ND-15 EB near MP 83 Expect delays.
+2,2020-12-15 13:38:55,47.9495,-104.0283,Cartwright,ND,,ND-58,Incident on ND-58 NB near MP 7 Expect delays.
+2,2020-12-21 03:27:38,47.4872,-100.7373,Mercer,ND,700, Highway 200 NW,Incident on ND-200 EB near MP 213 Expect delays.
+2,2020-11-26 03:08:38,47.4007,-103.2477,Grassy Butte,ND,,Highway 85 N,Incident on US-85 NB near MP 113 Expect delays.
+2,2020-12-12 21:48:15,47.2368,-102.7708,Manning,ND,1255, Highway 22,Incident on ND-22 NB near MP 96 Expect delays.
+2,2020-12-21 01:27:37,47.0532,-96.9416,Argusville,ND,,I-29 N,Incident on I-29 NB near MP 80 Expect delays.
+2,2017-12-27 05:41:47,48.5813,-102.0043,Kenmare,ND,45365,Highway 52 N,Accident on County Hwy-4 352nd Ave near US-52.
+2,2020-12-30 01:44:53,46.874,-97.2062,Mapleton,ND,,I-94 E,Incident on I-94 EB near MP 332 Expect delays.
+2,2020-11-25 01:11:00,46.8842,-96.8398,Fargo,ND,,I-29 S,Stationary traffic on US-81 S - I-29 S from 12th Ave/Exit 66 (I-29) to 13th Ave/38th St/Exit 64 (I-29) due to accident.
+2,2020-12-29 08:09:43,47.7953,-102.763,Mandaree,ND,10101, Highway 73,Incident on ND-73 EB near MP 9 Expect delays.
+2,2020-12-30 02:59:54,46.8473,-96.8402,Fargo,ND,,I-94 E,Incident on I-94 EB near MP 350 Expect delays.
+2,2020-10-26 14:51:43,47.8018,-103.3557,Watford City,ND,,2nd Ave SW,Incident on US-85 NB near MP 145 Expect delays.
+2,2020-10-20 14:33:00,47.8051,-103.5434,Alexander,ND,,Highway 85 N,Stationary traffic on US-85 from ND-23 Alt/Main St (US-85) to ND-68 (US-85) due to accident.
+2,2020-10-20 16:06:33,47.8385,-102.7222,New Town,ND,2898, Highway 22,Incident on ND-22 NB near MP 146 Expect delays.
+2,2020-12-30 01:29:53,46.9374,-96.8521,Fargo,ND,,I-29 N,Incident on I-29 NB near MP 70 Expect delays.
+2,2020-10-12 15:33:58,46.8363,-100.3629,Sterling,ND,,I-94 E,Incident on I-94 EB near MP 182 Expect delays.
+2,2020-10-22 16:19:30.000000000,46.9068,-98.2335,Sanborn,ND,,I-94 W,Slow traffic on I-94 from CR-11/Exit 281 (I-94) to CR-7/Exit 276 (I-94) due to accident.
+2,2020-12-30 21:40:06,46.8316,-100.7776,Bismarck,ND,,I-94 W,Incident on I-94 WB near MP 159 Expect delays.
+2,2020-12-28 19:49:36,48.3276,-101.8144,Berthold,ND,25877, 86th Ave NW,Incident on US-2 EB near MP 117 Expect delays.
+2,2020-12-15 20:48:59.000000000,47.1887,-100.877,Wilton,ND,,Highway 83,Incident on US-83 NB near MP 117 Expect delays.
+2,2020-10-10 07:10:04,47.0478,-96.938,Argusville,ND,,I-29 S,Incident on I-29 SB near MP 77 Expect delays.
+2,2020-12-02 00:35:14.000000000,46.8436,-100.9025,Mandan,ND,,I-94 E,Incident on I-94 EB near MP 153 Expect delays.
+2,2020-12-29 21:39:50,48.1294,-98.8988,Devils Lake,ND,7996, Highway 2,Incident on US-2 EB near MP 267 Expect delays.
+2,2020-12-03 00:05:30,48.2398,-101.0795,Surrey,ND,13422, Highway 2 E,Incident on US-2 EB near MP 157 Expect delays.
+2,2020-11-26 04:07:30,46.8911,-99.0686,Cleveland,ND,,I-94 E,Slow traffic on I-94 E from CR-67/Euclid Ave/5th St/Exit 238 (I-94) to 67 1/2 Ave/I-94 Service Rd (I-94) due to accident.
+2,2020-11-16 15:10:36,46.7209,-100.2903,Moffit,ND,7601, Highway 83,Incident on US-83 NB near MP 59 Expect delays.
+2,2020-12-30 13:32:30.000000000,46.8475,-96.8619,Fargo,ND,,45th St S,Slow traffic on I-94 E - US-52 E from CR-17/Exit 346 (I-94) to I-29/Exit 349 (I-94) due to accident.
+2,2020-10-20 07:10:00,46.9424,-103.8237,Sentinel Butte,ND,,I-94 E,Slow traffic on I-94 from CR-1711/Exit 10 (I-94) to Buffalo Gap Campground/Exit 18 (I-94) due to accident.
