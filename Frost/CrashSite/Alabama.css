@@ -3,13 +3,40 @@
 }
 
 .u-section-1 .u-custom-html-1 {
-  min-height: 858px;
-  margin-top: 1px;
-  margin-bottom: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-1 .u-custom-html-2 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-custom-html-3 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-custom-html-4 {
+  margin-bottom: 0;
+  margin-top: 30px;
+  min-height: 121px;
+}
+
+.u-section-1 .u-custom-html-5 {
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-custom-html-6 {
+  margin-bottom: 60px;
+  margin-top: -201px;
+  min-height: 434px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-custom-html-1 {
+  .u-section-1 .u-custom-html-4 {
+    height: auto;
+  }
+
+  .u-section-1 .u-custom-html-6 {
     height: auto;
   }
 }
