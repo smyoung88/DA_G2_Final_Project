@@ -153,57 +153,67 @@
           </div>
         </nav>
       </div></header>
-      <div style = "padding-left: 80px;" class = "container-fluid">
-        <div class = "row">
-            <div class = "col-md-4">
-                <h3><strong><b>Accident Details</b></strong><br><small>Enter your search below</small></h3>
-            </div>
-            <div class = "col-md-8">
-                <p><b>Please allow a moment for this large dataset to load.</b>
-                </p><br>
-            </div>
-    </div>
-    <div class = "container-fluid">
-        <div class = "row">
-            <div class = "col-md-2">
-                <form>
-                    <p>Filter Search</p>
-                
-                <ul>
-                    <li>
-                        <label for = "city">Enter a City</label><br>
-                        <input type = "text" placeholder = "El Paso" id = "city"/>
-                    </li>
-                    <li>
-                        <label for = "state">Enter a State</label><br>
-                        <input type = "text" placeholder = "TX" id = "state"/>
-                    </li>
-                    <li>
-                        <label for = "country">Enter a Severity</label><br>
-                        <input type = "text" placeholder = "2" id = "severity"/>
-                    </li>
-                </ul>
-                </form>
-            </div>
-            <div class="col-md-10">
-                <table>
-                  <thead>
-                    <tr>
-                  
-                        <th class = "datetime">Datetime</th>
-                        <th class = "address">Address</th>
-                        <th class = "city">City</th>
-                        <th class = "state">State</th>
-                        <th class = "severity">Severity</th>
-                        <th class = "location">Location</th>
-                        <th class = "description">Description</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
+    <section class="u-clearfix u-section-1" id="sec-b764">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+        <div class="u-clearfix u-custom-html u-custom-html-1">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Accident Details<br>
+                  <small>Enter your search below</small>
+                </h3>
               </div>
-        </div>
-    </div>
+              <div class="col-md-8">
+                <p>
+                  <br>
+                  <br><b>Please allow a moment for the large dataset to load.</b>
+                </p>
+                <br>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-2">
+                  <form>
+                    <p>Filter Search</p>
+                    <ul>
+                      <li>
+                        <label for="city">Enter a City</label>
+                        <br>
+                        <input type="text" placeholder="El Paso" id="city">
+                      </li>
+                      <li>
+                        <label for="state">Enter a State</label>
+                        <br>
+                        <input type="text" placeholder="TX" id="state">
+                      </li>
+                      <li>
+                        <label for="country">Enter a Severity</label>
+                        <br>
+                        <input type="text" placeholder="2" id="severity">
+                      </li>
+                    </ul>
+                    <input type="hidden" value="" name="recaptchaResponse">
+                  </form>
+                </div>
+                <div class="col-md-10">
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th class="datetime">Datetime</th>
+                        <th class="address">Address</th>
+                        <th class="city">City</th>
+                        <th class="state">State</th>
+                        <th class="severity">Severity</th>
+                        <th class="location">Location</th>
+                        <th class="description">Description</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
             <script src="USA_data.js"></script>
             <script src="app.js"></script>
