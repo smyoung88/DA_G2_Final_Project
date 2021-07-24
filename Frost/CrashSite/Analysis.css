@@ -9,7 +9,7 @@
 .u-section-1 .u-text-1 {
   font-weight: 700;
   width: 901px;
-  margin: 7px auto;
+  margin: 33px auto;
 }
 
 @media (max-width: 1199px) {
@@ -40,4 +40,129 @@
 
 .u-section-2 .u-text-1 {
   margin: 0 0 50px;
+}.u-section-3 .u-sheet-1 {
+  min-height: 688px;
+}
+
+.u-section-3 .u-layout-wrap-1 {
+  margin-top: 70px;
+  margin-bottom: 0;
+}
+
+.u-section-3 .u-layout-cell-1 {
+  min-height: 618px;
+  margin-top: 0;
+}
+
+.u-section-3 .u-container-layout-1 {
+  padding: 0 60px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: 0;
+}
+
+.u-section-3 .u-video-1 {
+  min-height: 618px;
+  margin-top: 0;
+}
+
+.u-section-3 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-3 .embed-responsive-1 {
+  position: absolute;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 696px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 510px;
+  }
+
+  .u-section-3 .u-video-1 {
+    min-height: 306px;
+  }
+
+  .u-section-3 .embed-responsive-1 {
+    width: 178%;
+    left: -39%;
+    height: 178%;
+    top: -39%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 533px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-3 .u-video-1 {
+    min-height: 469px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 100px;
+  }
+
+  .u-section-3 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-3 .u-video-1 {
+    min-height: 352px;
+  }
+
+  .u-section-3 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-video-1 {
+    min-height: 222px;
+  }
+}.u-section-4 {
+  background-image: none;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 42px;
+}.u-section-5 {
+  background-image: none;
+}
+
+.u-section-5 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-5 .u-custom-html-1 {
+  margin-bottom: 60px;
+}.u-section-6 {
+  background-image: none;
+}
+
+.u-section-6 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-6 .u-custom-html-1 {
+  margin-bottom: 60px;
 }
