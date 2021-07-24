@@ -74,23 +74,28 @@ This model was chosed for multiple factors and will be used to take in the prepr
 **UPDATE HERE**
 
 ## Database
-Present a provisional database that stands in for the final database and accomplishes the following:<br>✓ Sample data that mimics the expected final database structure or schema 
-<br>✓ Draft machine learning module is connected to the provisional database 
+Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to pgAdmin using Python.<br>
+Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/resources/non_freeway_roads/' folders to push data directly to pgAdmin.
+<br>
+This approach seemed the most appropriate due to the age of this repository and the amount of people working in it.<br>
+Should one of our contributors come up with a unique naming convention, the script to push data to pgAdmin won't bat an eye.<br>
+The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
 
-**UPDATE BELOW**
+The raw dataset from Kaggle that we based our accident data from is over 1GB in size.<br>
+Combine this large file with 50 unique tables of State Roads (non_freeway_roads), and you are likely to face a lengthy amount of time sending everything to pgAdmin.<br>
+Our contributors ranged in elapsed runtime between 732.8 seconds to over 1400 for over 2.5GB of data.<br>
 
-SCHEMA:
-road_id: int
-full_name: str
-route_type: str (classification)
-mtfcc_feature_class_code: str (idk what this is, docs say somewhere)
-state_fips_code: int (unnecessary, can be dropped)
-state_name: str
-road_geom: LINESTRING -  (geojson compatible list of coordinate points)
+![outputtime_pusher](https://user-images.githubusercontent.com/14188580/126883327-899baf68-acc7-4354-b49e-b39fecccd49a.PNG)
+<br>
+In pgAdmin, to access this data you will have to pass through the public schema to hit each table.<br>
 
-filtering street names and taking coordinates to determine:
-* total mileage of available roads per state/county
-* classification of road (hwy, street, etc)
+![schema_accidents_dataset](https://user-images.githubusercontent.com/14188580/126883393-1cc49927-4361-4369-8841-c4f3fb545975.PNG)
+<br>
+
+Because we used Python to send data directly to a database within pgAdmin, WITHOUT declaring Schemas, the schema is technically undefined.<br>
+By folliwing the syntax shown in the image above, tables can be accessed with minimal effort.<br>
+We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determing if that is an approach that will benefit us as we move forward with this project.<br>
+<br><br>
  
 **Draft machine learning module is connected to the provisional database**
 
