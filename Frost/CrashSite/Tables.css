@@ -34,3 +34,17 @@
     width: 340px;
   }
 }
+
+input {
+  width: 15%;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.location { width: 20%; }
+.city { width: 10%; }
+.state { width: 7.5%; }
+.severity { width: 7.5%; }
+.address { width: 20%; }
+.description { width: 25%; }
+.datetime { width: 10%; }
