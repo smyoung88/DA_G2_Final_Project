@@ -71,8 +71,6 @@ The `Analysis` tab will have a full summary of the Machine Learning model with v
 
 This model was chosed for multiple factors and will be used to take in the preprocessed and encoded accident dataset, prediciting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher represenation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing accuracy of the model's prediction capabilty. Gradient boosting was chosen was selected with the intention of reducing error and increasing accuracy of the model. 
 
-**UPDATE HERE**
-
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to pgAdmin using Python.<br>
 Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/resources/non_freeway_roads/' folders to push data directly to pgAdmin.
@@ -96,8 +94,6 @@ Because we used Python to send data directly to a database within pgAdmin, WITHO
 By folliwing the syntax shown in the image above, tables can be accessed with minimal effort.<br>
 We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determing if that is an approach that will benefit us as we move forward with this project.<br>
 <br><br>
- 
-**Draft machine learning module is connected to the provisional database**
 
 ## Data Sources
 - https://www.kaggle.com/sobhanmoosavi/us-accidents
