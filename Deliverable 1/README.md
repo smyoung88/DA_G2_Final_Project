@@ -4,9 +4,9 @@
 
 **Topic**: Prediction of motor vehicle accident (MVA) impacts on traffic using machine learning.
 
-**Reason**: If a map and directions application like Waze or Google Maps coud use an ML model to predict the likelihood of accidents that could impact traffic based on environmental conditions, road features, physical locations, and other factors, they could provide better route recommendations and improve value proposition to app users/purchasers.
+**Reason**: If a map and directions application like Waze or Google Maps could use an ML model to predict the likelihood of accidents that could impact traffic based on environmental conditions, road features, physical locations, and other factors, they could provide better route recommendations and improve the value proposition to app users/purchasers.
 
-**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include overview of roads, vehicle registrations, and other factorsfor the purpose of context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple API’s targeting streaming, web-based incident report sites. Data regarding road locations and lengths was sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
+**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
 
 1. Kaggle US Accidents Database
 2. BigQuery geo_us_roads.us_national_roads dataset
@@ -55,10 +55,10 @@ The `Analysis` tab will have a full summary of the Machine Learning model with v
 ## GitHub
 
 ### Communication Protocols
-- Main communicaiton used for this project is via private Slack channel
+- Main communication used for this project is via a private Slack channel
 - Live video meetings are utilized every Tuesday and Thursday for four weeks
 - Individual working files were created for each team member
-- Individual branches were created for each team member while working in respective personal files for added layer of file protection
+- Individual branches were created for each team member while working in respective personal files for an added layer of file protection
 
 ### Individual Branches
 - TaylorBranch
@@ -69,17 +69,17 @@ The `Analysis` tab will have a full summary of the Machine Learning model with v
 ## Machine Learning Model
 **Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
 
-This model was chosed for multiple factors and will be used to take in the preprocessed and encoded accident dataset, prediciting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher represenation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing accuracy of the model's prediction capabilty. Gradient boosting was chosen was selected with the intention of reducing error and increasing accuracy of the model. 
+This model was chosen for multiple factors and will be used to take in the preprocessed and encoded accident dataset, predicting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher representation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing the accuracy of the model's prediction capability. Gradient boosting was selected to reduce error and increase the accuracy of the model. 
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to pgAdmin using Python.<br>
 Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/resources/non_freeway_roads/' folders to push data directly to pgAdmin.
 <br>
-This approach seemed the most appropriate due to the age of this repository and the amount of people working in it.<br>
+This approach seemed the most appropriate due to the age of this repository and the number of people working in it.<br>
 Should one of our contributors come up with a unique naming convention, the script to push data to pgAdmin won't bat an eye.<br>
 The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
 
-The raw dataset from Kaggle that we based our accident data from is over 1GB in size.<br>
+The raw dataset from Kaggle that we based our accident data on is over 1GB in size.<br>
 Combine this large file with 50 unique tables of State Roads (non_freeway_roads), and you are likely to face a lengthy amount of time sending everything to pgAdmin.<br>
 Our contributors ranged in elapsed runtime between 732.8 seconds to over 1400 for over 2.5GB of data.<br>
 
@@ -91,8 +91,8 @@ In pgAdmin, to access this data you will have to pass through the public schema 
 <br>
 
 Because we used Python to send data directly to a database within pgAdmin, WITHOUT declaring Schemas, the schema is technically undefined.<br>
-By folliwing the syntax shown in the image above, tables can be accessed with minimal effort.<br>
-We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determing if that is an approach that will benefit us as we move forward with this project.<br>
+By following the syntax shown in the image above, tables can be accessed with minimal effort.<br>
+We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determine if that is an approach that will benefit us as we move forward with this project.<br>
 <br><br>
 
 ## Data Sources
