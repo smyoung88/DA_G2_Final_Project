@@ -67,7 +67,7 @@ The `Analysis` tab will have a full summary of the Machine Learning model with v
 - frost
 
 ## Machine Learning Model
-**Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
+**Initial Model Choice**: SciKit Learn's Sample-Controlled Gradient Boosted Random Forest Model
 
 This model was chosen for multiple factors and will be used to take in the preprocessed and encoded accident dataset, predicting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher representation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing the accuracy of the model's prediction capability. Gradient boosting was selected to reduce error and increase the accuracy of the model. 
 
