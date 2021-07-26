@@ -67,9 +67,23 @@ The `Analysis` tab will have a full summary of the Machine Learning model with v
 - frost
 
 ## Machine Learning Model
-**Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
+**Initial Model Choice**: SciKit Learn's Sample-Controlled Gradient Boosted Random Forest Model
 
 This model was chosen for multiple factors and will be used to take in the preprocessed and encoded accident dataset, predicting the severity of accidents based on environmental and road conditions on a scale of 1 to 4 with 1 being the lowest impact on traffic and 4 being the highest impact on traffic. The Sample-Controlled aspect was selected due to the sizable disparity in severity representation where severity 2 level accidents have a more than 10 fold higher representation than that of the other 3 severities combined. With that large of a difference in representation, severity 2 has a high probability of being over-represented in the training model and thus decreasing the accuracy of the model's prediction capability. Gradient boosting was selected to reduce error and increase the accuracy of the model. 
+
+The initial model was found to have 319-323 above average features and when run, the model gave a 71.66% accuracy for the initial attempt. This will be iproved in future attempts with modifications to the code and feature selection. 
+
+### ML Model Code
+ ![ML_Model_Code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Deliverable%201/ML_model_v1_code.png)
+ 
+### ML Initial Accuracy
+![ML_Initial_Accuracy](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Deliverable%201/ML_model_v1_accuracy.png)
+
+The sample dataset used in this model is located in our google drive due to the file size: 
+![ML_sample_dataset](https://drive.google.com/file/d/1Sh21LAkV-TfbDpugTtvWuZiwxipON7kD/view?usp=sharing)
+
+The code for this model is located here: 
+![ML_v1_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Deliverable%201/Del1_ML_model.ipynb)
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to pgAdmin using Python.<br>
