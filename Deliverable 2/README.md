@@ -114,7 +114,11 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Encoding: When the sample data set was ready, OneHotEncoder was used to encode the data in preparation for the Random Forest Model.
 
-- Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. 
+- Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. Standard split is 25% testing and 75% training. We decided to keep this split for our purposes. 
+
+**Data ETL And Encoding Output Files**:
+<br>![ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)
+<br>![ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)
 
 **The ML Model**:
 A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in the current form. This was chosen due to the following parameters:
