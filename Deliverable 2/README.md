@@ -1,4 +1,4 @@
-# Segment 1 Deliverables
+# Segment 2 Deliverables
 
 ## Presentation
 
@@ -110,11 +110,11 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Year, Month, Day, and Hour were not converted to objects in preparation for encoding until the end in order to allow for sampling related to these time/date variables until just before encoding. 
 
-- Sampling: because this data set covers the 48 contiguous states and contains 2.9 Million rows of data, sampling of the set was need for testing and preparation of the final model. Typical starting samples ranged from 10,000 to 200,000. Sampling was also done by State to allow for specific models to be developed for each state. 
+- Sampling: because this data set covers the 48 contiguous states and contains 2.9 Million rows of data, sampling of the set was needed for testing and preparation of the final model. Typical starting samples ranged from 10,000 to 200,000. Sampling was also done by State to allow for specific models to be developed for each state. 
 
 - Encoding: When the sample data set was ready, OneHotEncoder was used to encode the data in preparation for the Random Forest Model.
 
-- Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. Standard split is 25% testing and 75% training. We decided to keep this split for our purposes. 
+- Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. Standard split is 25% testing and 75% training. We decided to keep the split this way because we have a very large dataset where we would not require more than 75% of the data to be trained on to feel the model is being trained appropriately. A higher training percentage would have been utilized had the dataset been smaller. We also did not want to risk overfitting the data by using a training percentage of anything greater than 75%.
 
 **Data ETL And Encoding Output Files**:
 <br>![ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)
