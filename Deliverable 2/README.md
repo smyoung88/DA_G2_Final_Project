@@ -128,7 +128,6 @@ Because we used Python to send data directly to a database within pgAdmin, WITHO
 By following the syntax shown in the image above, tables can be accessed with minimal effort.<br>
 We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determine if that is an approach that will benefit us as we move forward with this project.<br>
 <br><br>
-
 ## Dashboard
 
 **Visualizations and Website**:  The website is in development but is currently live for preview.  
