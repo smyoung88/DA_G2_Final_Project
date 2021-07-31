@@ -27,35 +27,6 @@ During this phase of the project, multiple team members poured over the data to 
 **Analysis Phase**:
 After the initial design of the ML model, many iterations were undertaken to determine how many features should be used and which features would be best suited for contributing to the model's accuracy. These tests were performed using a constantly shifting 20,000-row sample that changed for each model. Due to the size of the dataset and the extreme variance in the distribution of entries from smaller vs larger states, using a static 20,000-row sample would likely consistently underrepresent certain states, and given the processing power required to perform predictions of larger samples, the size had to be limited to 20,000. Each iteration was performed and compared across 5 different model types (RFM, ROS, SMOTE, RUS, SMOTEENN) to compare accuracy, precision, and recall. After feature testing was completed, it was found that removing city and county was the best way to maximize the accuracy of the models and that SMOTEEENN was the most accurate with 94.3% accuracy. 
 
-**Visualizations and Website**:  The website is in development but is currently live for preview.  
-<br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
-Deliverable 1 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
-<br>
-![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
-<br>
-<br>
-A Dropdown menu is available to select from the lower 48 states plus the District of Columbia.
-<br>
-![dropdown](https://user-images.githubusercontent.com/77071776/126848223-95751de2-5f77-489b-9633-ec41a63b8079.png)
-<br>
-<br>
-The tooltip opens upon hovering over an accident site.  
-<br>
-![tooltip](https://user-images.githubusercontent.com/77071776/126848231-86bb86e8-a4e5-4aae-91d8-21f35c841166.png)
-<br>
-<br>
-The accident locations can be filtered on the map by severity (from 1 - 4).  The population data in the legend was provided by the Tableau US Census data for 2018.  This map view and the population layer was chosen specifically because the dense population areas clearly show the prevalence of traffic accidents.
-<br>
-![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
-<br>
-<br>
-The table view needs to be refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  The plan is to get much more, if not all of the Kaggle dataset accessible in the table view.
-<br>
-![table](https://user-images.githubusercontent.com/77071776/126848236-75347f77-b6e4-4d1d-a1cd-12acaa6eaf4b.png)
-<br>
-<br>
-The `Analysis` tab will have a full summary of the Machine Learning model with visualizations.
-
 **Slides**:
 A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1GrWHPR6ZrtEjdBiTUCM1dAqMbIJVJ9bLMg3_BreEs1g/edit#slide=id.p)
 
@@ -157,6 +128,38 @@ Because we used Python to send data directly to a database within pgAdmin, WITHO
 By following the syntax shown in the image above, tables can be accessed with minimal effort.<br>
 We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determine if that is an approach that will benefit us as we move forward with this project.<br>
 <br><br>
+
+## Dashboard
+
+**Visualizations and Website**:  The website is in development but is currently live for preview.  
+<br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
+Deliverable 1 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
+<br>
+![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
+<br>
+<br>
+A Dropdown menu is available to select from the lower 48 states plus the District of Columbia.
+<br>
+![dropdown](https://user-images.githubusercontent.com/77071776/126848223-95751de2-5f77-489b-9633-ec41a63b8079.png)
+<br>
+<br>
+The tooltip opens upon hovering over an accident site.  
+<br>
+![tooltip](https://user-images.githubusercontent.com/77071776/126848231-86bb86e8-a4e5-4aae-91d8-21f35c841166.png)
+<br>
+<br>
+The accident locations can be filtered on the map by severity (from 1 - 4).  The population data in the legend was provided by the Tableau US Census data for 2018.  This map view and the population layer was chosen specifically because the dense population areas clearly show the prevalence of traffic accidents.
+<br>
+![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
+<br>
+<br>
+The table view needs to be refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  The plan is to get much more, if not all of the Kaggle dataset accessible in the table view.
+<br>
+![table](https://user-images.githubusercontent.com/77071776/126848236-75347f77-b6e4-4d1d-a1cd-12acaa6eaf4b.png)
+<br>
+<br>
+The `Analysis` tab will have a full summary of the Machine Learning model with visualizations.
+
 
 ## Data Sources
 - https://www.kaggle.com/sobhanmoosavi/us-accidents
