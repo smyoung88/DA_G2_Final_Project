@@ -127,7 +127,8 @@ In pgAdmin, to access this data you will have to pass through the public schema 
 Because we used Python to send data directly to a database within pgAdmin, WITHOUT declaring Schemas, the schema is technically undefined.<br>
 By following the syntax shown in the image above, tables can be accessed with minimal effort.<br>
 We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determine if that is an approach that will benefit us as we move forward with this project.<br>
-<br><br>
+<br>
+
 ## Dashboard
 
 **Visualizations and Website**:  The website is in development but is currently live for preview.  
