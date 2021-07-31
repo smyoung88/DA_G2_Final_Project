@@ -117,8 +117,8 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 - Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. The standard split is 25% testing and 75% training. We decided to keep the split this way because we have a very large dataset where we would not require more than 75% of the data to be trained on to feel the model is being trained appropriately. A higher training percentage would have been utilized had the dataset been smaller. We also did not want to risk overfitting the data by using a training percentage of anything greater than 75%.
 
 **Data ETL And Encoding Output Files**:
-<br>![ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)
-<br>![ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)
+<br>![ETL/NOT-Encoded CSV] (https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)
+<br>![ETL/Encoded CSV] (https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)
 
 **The ML Model**:
 A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in the current form. This was chosen due to the following parameters:
