@@ -56,7 +56,8 @@ The table view needs to be refined for a more streamlined appearance.  Currently
 <br>
 The `Analysis` tab will have a full summary of the Machine Learning model with visualizations.
 
-
+**Slides**:
+A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1GrWHPR6ZrtEjdBiTUCM1dAqMbIJVJ9bLMg3_BreEs1g/edit#slide=id.p)
 
 ## GitHub
 
