@@ -39,18 +39,18 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 315px;
+  min-height: 544px;
 }
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
-  width: 544px;
-  margin: 23px auto 0;
+  width: 734px;
+  margin: 100px auto 0;
 }
 
 .u-section-2 .u-text-2 {
   font-size: 1.125rem;
-  margin: 15px 23px 32px;
+  margin: 100px 23px 60px;
 }
 
 .u-section-2 .u-btn-1 {
@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    width: 720px;
+  }
+
   .u-section-2 .u-text-2 {
     width: 720px;
   }
@@ -91,50 +95,60 @@
     width: 340px;
   }
 }.u-section-3 {
-  background-image: url("images/traffic.jpg");
-  background-position: 50% 50%;
+  background-image: none;
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 854px;
+  min-height: 1046px;
+}
+
+.u-section-3 .u-image-1 {
+  width: 1029px;
+  height: 677px;
+  animation-duration: 1000ms;
+  margin: 0 auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-3 {
-    min-height: 863px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 967px;
   }
 
-  .u-section-3 .u-sheet-1 {
-    min-height: 704px;
+  .u-section-3 .u-image-1 {
+    width: 940px;
+    height: 827px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-3 {
-    min-height: 661px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 773px;
   }
 
-  .u-section-3 .u-sheet-1 {
-    min-height: 539px;
+  .u-section-3 .u-image-1 {
+    width: 720px;
+    height: 633px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-3 {
-    min-height: 496px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 615px;
   }
 
-  .u-section-3 .u-sheet-1 {
-    min-height: 404px;
+  .u-section-3 .u-image-1 {
+    width: 540px;
+    height: 475px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 {
-    min-height: 312px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 439px;
   }
 
-  .u-section-3 .u-sheet-1 {
-    min-height: 254px;
+  .u-section-3 .u-image-1 {
+    width: 340px;
+    height: 299px;
   }
 }
