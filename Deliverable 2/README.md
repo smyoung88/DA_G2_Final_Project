@@ -131,7 +131,7 @@ We are sticking with this approach until we learn more about connecting with AWS
 
 ## Dashboard
 
-**Visualizations and Website**:  Development of the final website continues in this phase of the project and remains live for preview.  Elements added include, refinements to the table page and a presentation tab that mirrors the Google Slides file.  The visualizations created on for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard will include a visualization detailing the final accuracy of the machine learning model by state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
+**Visualizations and Website**:  Development of the final website continues in this phase of the project and the site remains live for preview.  Elements added include refinements to the table page, and a presentation tab that mirrors the Google Slides file.  The visualizations created on for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard will include a visualization detailing the final accuracy of the machine learning model by state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
 <br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
 Deliverable 2 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
 <br>
@@ -153,7 +153,7 @@ The accident locations can be filtered on the map by severity (from 1 - 4).  The
 ![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
 <br>
 <br>
-The table view has been refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  This gives a random sampling of the entire accident data set.
+The table view has been refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  This gives a random sampling of the entire accident dataset.
 <br>
 ![accidents_table](https://user-images.githubusercontent.com/77071776/127788585-097481a4-b546-4c4d-a9c9-71c7622ad63e.jpg)
 <br>
