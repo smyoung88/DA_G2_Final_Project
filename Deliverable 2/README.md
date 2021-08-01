@@ -153,7 +153,7 @@ The accident locations can be filtered on the map by severity (from 1 - 4).  The
 ![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
 <br>
 <br>
-The table view needs to be refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  The plan is to get much more, if not all of the Kaggle dataset accessible in the table view.
+The table view has been refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  This gives a random sampling of the entire accident data set.
 <br>
 ![accidents_table](https://user-images.githubusercontent.com/77071776/127788585-097481a4-b546-4c4d-a9c9-71c7622ad63e.jpg)
 <br>
