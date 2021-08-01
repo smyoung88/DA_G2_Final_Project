@@ -155,7 +155,7 @@ The accident locations can be filtered on the map by severity (from 1 - 4).  The
 <br>
 The table view needs to be refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  The plan is to get much more, if not all of the Kaggle dataset accessible in the table view.
 <br>
-![table](https://user-images.githubusercontent.com/77071776/126848236-75347f77-b6e4-4d1d-a1cd-12acaa6eaf4b.png)
+![accidents_table](https://user-images.githubusercontent.com/77071776/127788585-097481a4-b546-4c4d-a9c9-71c7622ad63e.jpg)
 <br>
 <br>
 
