@@ -158,7 +158,6 @@ The table view needs to be refined for a more streamlined appearance.  Currently
 ![table](https://user-images.githubusercontent.com/77071776/126848236-75347f77-b6e4-4d1d-a1cd-12acaa6eaf4b.png)
 <br>
 <br>
-The `Analysis` tab will have a full summary of the Machine Learning model with visualizations.
 
 
 ## Data Sources
