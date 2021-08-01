@@ -131,7 +131,7 @@ We are sticking with this approach until we learn more about connecting with AWS
 
 ## Dashboard
 
-**Visualizations and Website**:  The website is in development but is currently live for preview.  
+**Visualizations and Website**:  Development of the final website continues in this phase of the project and remains live for preview.  Elements added include, refinements to the table page and a presentation tab that mirrors the Google Slides file.  The visualizations created on for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard will include a visualization detailing the final accuracy of the machine learning model by state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
 <br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
 Deliverable 2 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
 <br>
