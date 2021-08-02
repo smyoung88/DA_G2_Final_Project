@@ -106,9 +106,9 @@ A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in th
 Limitations/Benefits: The SMOTEENN type of model does provide a much more accurate prediction of outcomes on the large scale, but comparisons of the 5 model variations (RFM, ROS, SMOTE, RUS, SMOTEENN) showed fluctuations where other models would have advantages. Certain models like the Random Undersampling showed suspiciously high accuracy, recall, and precision almost every time indicating a high potential for overfitting of the model due to lowering the sample sizes of each test. The models also will perform better given a larger sample size, so once the final feature list is chosen, a larger iteration can be undertaken to see if increased accuracy can be achieved.  
 
 ## Database
-Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br>
-Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/output_tables/' folders to push data directly to our AWS instance.
-<br>
+Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
+Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's `/resources/` and `/output_tables/` folders to push data directly to our AWS instance.
+<br><br>
 This approach seemed the most appropriate due to the size of our main dataset and the number of people working in it.<br>
 Should one of our contributors come up with a unique naming convention, the script to push data to AWS won't bat an eye.<br>
 The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
@@ -125,7 +125,7 @@ While we have setup our Machine Learning model's preprocessing script to retriev
 ### Running PostgreSQL Commands With Python - PostgreSQL Joins
 
 SqlAlchemy makes it very easy to use PostgreSQL syntax commands with your database regardless of whether it is local or in the cloud.<br>
-In the 'Vellios' folder there is a file named 'AWS_Database_Navigator_Joiner' that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
+In the 'Vellios' folder there is a file named `AWS_Database_Navigator_Joiner` that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
 
 After prompting one of our approved users for database credentials and making the connection with SqlAlchemy, we chose to combine 4 datasets into one table in order to begin the process of building out our State Summary dataset.<br>
 
