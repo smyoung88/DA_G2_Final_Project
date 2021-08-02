@@ -106,27 +106,32 @@ A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in th
 Limitations/Benefits: The SMOTEENN type of model does provide a much more accurate prediction of outcomes on the large scale, but comparisons of the 5 model variations (RFM, ROS, SMOTE, RUS, SMOTEENN) showed fluctuations where other models would have advantages. Certain models like the Random Undersampling showed suspiciously high accuracy, recall, and precision almost every time indicating a high potential for overfitting of the model due to lowering the sample sizes of each test. The models also will perform better given a larger sample size, so once the final feature list is chosen, a larger iteration can be undertaken to see if increased accuracy can be achieved.  
 
 ## Database
-Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to pgAdmin using Python.<br>
-Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/resources/non_freeway_roads/' folders to push data directly to pgAdmin.
+Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br>
+Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's '/resources/' and '/output_tables/' folders to push data directly to our AWS instance.
 <br>
-This approach seemed the most appropriate due to the age of this repository and the number of people working in it.<br>
-Should one of our contributors come up with a unique naming convention, the script to push data to pgAdmin won't bat an eye.<br>
+This approach seemed the most appropriate due to the size of our main dataset and the number of people working in it.<br>
+Should one of our contributors come up with a unique naming convention, the script to push data to AWS won't bat an eye.<br>
 The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
+To combat this potential issue, we have kept our endpoint and password secret and are using Python's nifty getpass library to input the proper credentials whenever we need to update or connect to our database.<br>
 
-The raw dataset from Kaggle that we based our accident data on is over 1GB in size.<br>
-Combine this large file with 50 unique tables of State Roads (non_freeway_roads), and you are likely to face a lengthy amount of time sending everything to pgAdmin.<br>
-Our contributors ranged in elapsed runtime between 732.8 seconds to over 1400 for over 2.5GB of data.<br>
-
-![outputtime_pusher](https://user-images.githubusercontent.com/14188580/126883327-899baf68-acc7-4354-b49e-b39fecccd49a.PNG)
-<br>
-In pgAdmin, to access this data you will have to pass through the public schema to hit each table.<br>
-
-![schema_accidents_dataset](https://user-images.githubusercontent.com/14188580/126883393-1cc49927-4361-4369-8841-c4f3fb545975.PNG)
+For the uninitiated, our raw dataset from Kaggle is over 1GB in size.<br>
+While we have setup our Machine Learning model's preprocessing script to retrieved data directly from the database, this is not a very efficient practice.<br>
 <br>
 
-Because we used Python to send data directly to a database within pgAdmin, WITHOUT declaring Schemas, the schema is technically undefined.<br>
-By following the syntax shown in the image above, tables can be accessed with minimal effort.<br>
-We are sticking with this approach until we learn more about connecting with AWS on Tuesday to determine if that is an approach that will benefit us as we move forward with this project.<br>
+### ERD
+
+![ERD_QDBD_Team2](https://user-images.githubusercontent.com/14188580/127789804-0d1fff0f-03b6-45e6-9d7d-0788862e67eb.png)
+
+### Running PostgreSQL Commands With Python - PostgreSQL Joins
+
+SqlAlchemy makes it very easy to use PostgreSQL syntax commands with your database regardless of whether it is local or in the cloud.<br>
+In the 'Vellios' folder there is a file named 'AWS_Database_Navigator_Joiner' that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
+
+After prompting one of our approved users for database credentials and making the connection with SqlAlchemy, we chose to combine 4 datasets into one table in order to begin the process of building out our State Summary dataset.<br>
+
+![postgresql join command](https://user-images.githubusercontent.com/14188580/127790033-3a70ee32-142c-44a5-a2f8-4a49b56d9bfb.PNG)
+
+
 <br>
 
 ## Dashboard
