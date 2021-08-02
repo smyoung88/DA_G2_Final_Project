@@ -1,0 +1,106 @@
+all_us_interstates
+-
+full_name VARCHAR
+state_name VARCHAR PK FK >- all_us_highways.state_name
+road_geom LINESTRING
+
+
+blue_laws
+-
+State VARCHAR PK FK >- state_population_data_july2020.NAME
+blueLaws VARCHAR
+
+all_us_highways
+-
+full_name VARCHAR
+state_name VARCHAR PK
+road_geom LINESTRING
+
+state_population_data_july2020
+-
+SUMLEV INT
+REGION INT
+DIVISION INT
+STATE INT
+NAME VARCHAR PK FK >- weed_legalization_raw_scraped.State
+SEX INT
+ORIGIN INT
+RACE INT
+AGE INT
+CENSUS2010POP INT
+POPESTIMATE2019 INT
+
+weed_legalization_raw_scraped
+-
+State VARCHAR PK FK >- road_distance_by_state.state_name
+Legal_Status VARCHAR
+Medicinal VARCHAR
+Decriminalized BOOL
+State_Laws VARCHAR
+
+
+land_area_by_state_scraped
+-
+State VARCHAR PK FK >- blue_laws.State
+Total_SqMi INT
+Total_SqKm INT
+LandArea_SqMi INT
+LandArea_SqKm INT
+
+road_distance_by_state
+-
+state_name VARCHAR PK FK >- land_area_by_state_scraped.State
+sum_interstate_distance INT
+sum_highway_distance INT
+sum_other_distance INT
+
+
+US_Accidents_Dec20_Updated
+-
+ID INT UNIQUE
+Severity INT
+Start_Time DATETIME
+End_Time DATETIME
+Start_Lat GEOM
+Start_Lng GEOM
+End_Lat GEOM
+End_Lng GEOM
+Distance(mi) FLOAT
+Description VARCHAR
+Number INT
+Street VARCHAR
+Side VARCHAR
+City VARCHAR
+County VARCHAR
+State VARCHAR
+Zipcode VARCHAR
+Country VARCHAR
+Timezone VARCHAR
+Airport_Code VARCHAR
+Weather_Timestamp DATETIME
+Temperature(F) FLOAT
+Wind_Chill(F) FLOAT
+Humidity(%) INT
+Pressure(in) FLOAT
+Visibility(mi) FLOAT
+Wind_Direction VARCHAR
+Wind_Speed(mph) INT
+Precipitation(in) FLOAT
+Weather_Condition VARCHAR
+Amenity BOOL
+Bump BOOL
+Crossing BOOL
+Give_Way BOOL
+Junction BOOL
+No_Exit BOOL
+Railway BOOL
+Roundabout BOOL
+Station BOOL
+Stop BOOL
+Traffic_Calming BOOL
+Traffic_Signal BOOL
+Turning_Loop BOOL
+Sunrise_Sunset BOOL
+Civil_Twilight BOOL
+Nautical_Twilight BOOL
+Astronomical_Twilight BOOL
