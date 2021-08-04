@@ -30,20 +30,6 @@ After the initial design of the ML model, many iterations were undertaken to det
 **Slides**:
 A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1GrWHPR6ZrtEjdBiTUCM1dAqMbIJVJ9bLMg3_BreEs1g/edit#slide=id.p)
 
-## GitHub
-
-### Communication Protocols
-- Main communication used for this project is via a private Slack channel
-- Live video meetings are utilized every Tuesday and Thursday for four weeks
-- Individual working files were created for each team member
-- Individual branches were created for each team member while working in respective personal files for an added layer of file protection
-
-### Individual Branches
-- TaylorBranch
-- YoungBranch
-- colin_branch
-- frost
-
 ## Machine Learning Model
 **Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
 
