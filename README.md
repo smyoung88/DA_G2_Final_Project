@@ -1,4 +1,4 @@
-# USING MACHINE LEARNING TO PREDICT THE SEVERITY OF TRAFFIC ACCIDENTS
+# Using Machine Learning to Predict The Severity of Traffic Accidents
 
 ## Presentation
 
