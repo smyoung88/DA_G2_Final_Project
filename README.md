@@ -28,7 +28,7 @@ During this phase of the project, multiple team members poured over the data to 
 After the initial design of the ML model, many iterations were undertaken to determine how many features should be used and which features would be best suited for contributing to the model's accuracy. These tests were performed using a constantly shifting 20,000-row sample that changed for each model. Due to the size of the dataset and the extreme variance in the distribution of entries from smaller vs larger states, using a static 20,000-row sample would likely consistently underrepresent certain states, and given the processing power required to perform predictions of larger samples, the size had to be limited to 20,000. Each iteration was performed and compared across 5 different model types (RFM, ROS, SMOTE, RUS, SMOTEENN) to compare accuracy, precision, and recall. After feature testing was completed, it was found that removing city and county was the best way to maximize the accuracy of the models and that SMOTEEENN was the most accurate with 94.3% accuracy. 
 
 **Slides**:
-A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1GrWHPR6ZrtEjdBiTUCM1dAqMbIJVJ9bLMg3_BreEs1g/edit#slide=id.p)
+A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
 
 ## Machine Learning Model
 **Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
