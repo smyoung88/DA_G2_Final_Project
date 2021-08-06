@@ -89,7 +89,8 @@ A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in th
 
 4. Random Forest Model increased accuracy: compared with other classification-based models, Random Forest Models have been shown to have a higher accuracy of prediction in many cases. This gave reason to make this the first choice for this complex set of data. 
 
-Limitations/Benefits: The SMOTEENN type of model does provide a much more accurate prediction of outcomes on the large scale, but comparisons of the 5 model variations (RFM, ROS, SMOTE, RUS, SMOTEENN) showed fluctuations where other models would have advantages. Certain models like the Random Undersampling showed suspiciously high accuracy, recall, and precision almost every time indicating a high potential for overfitting of the model due to lowering the sample sizes of each test. The models also will perform better given a larger sample size, so once the final feature list is chosen, a larger iteration can be undertaken to see if increased accuracy can be achieved.  
+**Model Choice Explanation Including Limitations and Benefits**
+The SMOTEENN type of model does provide a much more accurate prediction of outcomes on the large scale, but comparisons of the 5 model variations (RFM, ROS, SMOTE, RUS, SMOTEENN) showed fluctuations where other models would have advantages. Certain models like the Random Undersampling showed suspiciously high accuracy, recall, and precision almost every time indicating a high potential for overfitting of the model due to lowering the sample sizes of each test. The models also will perform better given a larger sample size, so once the final feature list is chosen, a larger iteration can be undertaken to see if increased accuracy can be achieved.  
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
