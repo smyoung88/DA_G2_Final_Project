@@ -42,7 +42,7 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Start time column changed to date time and expanding it to Year, Month, Day, and Hour to allow for measurement of these features. 
 
-- Cities and counties were concatenated with states to prevent cities with the same name in different states from being combined. 
+- Cities and counties were initially concatenated with states to prevent cities/counties with the same name in different states from being combined, however both City and County features were ultimately dropped due to an increibly high demand for processing from 5234 features being present with all cities and counties represented and the low value of the vast majority of those features. 
 
 - Wind Directions were grouped down to the 8 cardinal directions (N, S, E, W, NE, SE, NW, SW) instead of keeping the original 16. This was done to reduce the number of features in the final model. 
 
@@ -68,29 +68,69 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Year, Month, Day, and Hour were not converted to objects in preparation for encoding until the end in order to allow for sampling related to these time/date variables until just before encoding. 
 
-- Sampling: because this data set covers the 48 contiguous states and contains 2.9 Million rows of data, sampling of the set was needed for testing and preparation of the final model. Typical starting samples ranged from 10,000 to 200,000. Sampling was also done by State to allow for specific models to be developed for each state. 
+- Encoding: Early on when dealing with the Weather_Condition column, Get_Dummmies() was utilized to only encode that one column so that the data set could be easily handled in reconciling the variable subjective entries without having to have the 5000+ columns of a full encoding. When the sample data set was ready for final encoding, OneHotEncoder was used to encode the data for the Random Forest Model.
 
-- Encoding: When the sample data set was ready, OneHotEncoder was used to encode the data in preparation for the Random Forest Model.
+**Feature Engineering**
+Features for this model had to be carefully selected due to relevance and importance to ensure that the model would be able to run appropraitely. The raw number of features even after removing irrelevant information such as ID numbers, descriptions, and lat/long coordinates was more than 17,000 features. This was in large part due to the inclusion of cities and counties. Using improtance calculations (SelectFromModel and 'Importance' from the Random Forest Model) it was shown that most of these features had 0 impact on the model and only served to bog down processing. Even a paid Google Colabs account using a GPU and a high-RAM session proved to be insuffiencient to handle the dataset before culling of features and the model could not be run given the hardware available. Using the calculations and manual testing of the models (shown below), it was shown that the removal of City and County columns allowed for a reduction to 229 features that could then be automatically reduced to best fit the samples being run in the model through the SelectFromModel function. All models ended up running with less than 100 features.
 
+- The SelectFromModel code shows the features that have a greater than median level of importance.
+![SelectFromModel_code]()************************
+
+- The importance measurement code shows the calculations of how much importance each feature contributed.
+![importance_measurement_code]()************************
+
+- Manual feature testing showed the ideal features to remove
+![feature_selection_metrics]()************************
+
+**Sampling**
+Sampling of the data set was varied depending on the processes being undertaken. For testing of features, samples of 20,000 were used because many models needed to run and large sample sizes too a great deal of time. During assessment, features were considered based on feature type group so that either an entire group  (ie Weather_Condition or City) was kept or dropped based on the whole group's relevance. This prevented certain specific features like 'Dust_Whirls' from being dropped if weather conditions as a whole provided great importance but that specific one was underrepresented in the sample. 
+Sampling for the final models was determined based on the available entries for the chosen set of data. For instance the national model was capped at 100,000 because samples over that did not increase accuracy and only served to require greater processing time, and state models used as many entries as possible up to that 100,000 limit. This did prove that a number of states were underrepresented in the data set with some states having less than 5000 entries compared to other states that reached the 100,000 limit. This later proved to be an issue with overfitting of the models. 
+
+- Sample testing is shown here:
+![feature_number_and_sample_size_metrics]()************************
+
+**Train/Test Splitting**
 - Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. The standard split is 25% testing and 75% training. We decided to keep the split this way because we have a very large dataset where we would not require more than 75% of the data to be trained on to feel the model is being trained appropriately. A higher training percentage would have been utilized had the dataset been smaller. We also did not want to risk overfitting the data by using a training percentage of anything greater than 75%.
 
 **Data ETL And Encoding Output Files**:
-<br>[ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)
-<br>[ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)
+<br>[ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)************************
+<br>[ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)************************
 
 **The ML Model**:
-A Gradient Boosted Random Forest Model was chosen with SMOTEENN resampling in the current form. This was chosen due to the following parameters:
+The SMOTEENN Gradient Boosted Random Forest Model (SMOTEEN GB RFM) was our final chosen model for the national supervised ML model, however we did run 5 different models concurrently (Gradient Boosted Random Forest Model without resampling, Random Oversampling, SMOTE Oversampling, Random Undersampling, and SMOTEENN Combination Resampling). This was done initially to confirm that our model choice was in fact the most accurate, however upon running the state models, we realized that certain states did not possess enough entries for the SMOTE or SMOTEENN models to run and thus we had to downgrade the model for certain states to Random Oversampling or the Gradient Boosted Random Forest Model with no sampling assistance so that we could include those states. 
+
+**Model Choice Explanation** 
+The SMOTEENN GB RFM was chosen due to the following parameters:
 
 1. Number of Classes: this is not a binary classification or logistical regression, and RFM’s can handle the multiple target classes.
 
-2. Number of features: because this data set takes into consideration more than 100 (and potentially more than 11,000) different feature columns, a model was needed that could handle a large number of features.
+2. Number of features: because this data set takes into consideration more than 100 (and potentially more than 5,000) different feature columns, a model was needed that could handle a large number of features.
 
 3. Unequal distribution of target concentrations: when exploring the data, it was found that the Severity level 2 was represented more than 10X the combined value of the remaining severity levels. This means that any ML model trained on this set would have a bias toward Level 2. To counteract this, having the option for resampling (be it oversampling, under-sampling, or a combination) would allow for a more accurate model. 
 
 4. Random Forest Model increased accuracy: compared with other classification-based models, Random Forest Models have been shown to have a higher accuracy of prediction in many cases. This gave reason to make this the first choice for this complex set of data. 
 
-**Model Choice Explanation Including Limitations and Benefits**
-The SMOTEENN type of model does provide a much more accurate prediction of outcomes on the large scale, but comparisons of the 5 model variations (RFM, ROS, SMOTE, RUS, SMOTEENN) showed fluctuations where other models would have advantages. Certain models like the Random Undersampling showed suspiciously high accuracy, recall, and precision almost every time indicating a high potential for overfitting of the model due to lowering the sample sizes of each test. The models also will perform better given a larger sample size, so once the final feature list is chosen, a larger iteration can be undertaken to see if increased accuracy can be achieved.  
+**Limitations and Benefits**  
+While the SMOTEEN GB RFM proved to be the overall more consistently accurate model, we did have some issues related to the ability to perform the model due to available data for specific states either preventing the model form having enough points to run with or even samples being so small that most of the models over fit the data and became unreliable. To work around this limitation, we continued the use of all 5 models and would downgrage the level of the model if it could not be performed or if accuracy was above 99%, in which case, the next lowest model that worked and provided an accuracy of less than 99% was selected. These choices can be seen in the maps on the dashboard and in the provided spreadheet images here in the README. Benefits of the SMOTEENN GB RFM were consistent best accuracy, recall, and precision compared to the the other models when the data size was large enough and with feature numbers and sample size controlled, the processing time for this model was longer but reasonable and able to be performed repeatedly wtih ease. 
+
+- State and national model outcomes show how the different sampling options performed
+![state_and_national_outcomes]()************************
+
+**Modifications Between Segment 2 And Segment 3**
+From the beginning, our group sought to choose and design the optimal model, without starting with a known lesser model. The design for the SMOTEEN GB RFM was the intent from the onset, but where we inteded to initially use the other 4 models (GB RFM, ROS, SMOTE, and RUS) just to confirm the accuracy benefit of our model selection, we realized at this point that we would need to keep the other models to ensure we could create predictions for states with insufficient data points. It was also at this time where we found that sample sizes over 100,000 did not produce increased accuracy in the national model and thus allowed us to cap the sample size and maintain a reasonable processing period. 
+
+**Training The Model** 
+The model was trained by fitting the data samples (either standard samples or resampled samples) into the Gradient Boosted Random Forest model with n_estimators=100 and features determined by calculation wtih SelectFromModel. 
+
+- The SMOTEENN GB RFM code:
+![smoteenn_ml_code]()************************
+
+**Confusion Matrix**
+Due to the nature of this model having 4 target vectors, a standard confusion matrix including only True Positives, False Positive, True Negatives, and False Negatives was not possible. The confusion matrix instead showed a breakdown of how many of the predictions fell into each of the potential target vectors (columns) given the correct target vector (rows). Rows are the actual severities and columns are the predictions. For instance, the value at row 1, column 1 shows the total number of predictions for severity 1 of those entries that were actually severity 1. row 1, column 2 shows how many of the actual severity 1 entries were predicted to be severity 2 and so forth and so on.
+![Confusion Matrix Image]()************************
+
+**Final Outcomes And Accuracy**
+The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. 
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
