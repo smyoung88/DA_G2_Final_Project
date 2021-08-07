@@ -74,20 +74,20 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 Features for this model had to be carefully selected due to relevance and importance to ensure that the model would be able to run appropraitely. The raw number of features even after removing irrelevant information such as ID numbers, descriptions, and lat/long coordinates was more than 17,000 features. This was in large part due to the inclusion of cities and counties. Using improtance calculations (SelectFromModel and 'Importance' from the Random Forest Model) it was shown that most of these features had 0 impact on the model and only served to bog down processing. Even a paid Google Colabs account using a GPU and a high-RAM session proved to be insuffiencient to handle the dataset before culling of features and the model could not be run given the hardware available. Using the calculations and manual testing of the models (shown below), it was shown that the removal of City and County columns allowed for a reduction to 229 features that could then be automatically reduced to best fit the samples being run in the model through the SelectFromModel function. All models ended up running with less than 100 features.
 
 - The SelectFromModel code shows the features that have a greater than median level of importance.
-![SelectFromModel_code]()************************
+![SelectFromModel_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/SelectFromModel_code.png)
 
 - The importance measurement code shows the calculations of how much importance each feature contributed.
-![importance_measurement_code]()************************
+![importance_measurement_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/importance_measuring_code.png)
 
-- Manual feature testing showed the ideal features to remove
-![feature_selection_metrics]()************************
+- Manual feature testing showed the ideal features to remove. (Note: CNP means "Could Not Perform")
+![feature_selection_metrics](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/feature_selection_metrics.png)
 
 **Sampling**
 Sampling of the data set was varied depending on the processes being undertaken. For testing of features, samples of 20,000 were used because many models needed to run and large sample sizes too a great deal of time. During assessment, features were considered based on feature type group so that either an entire group  (ie Weather_Condition or City) was kept or dropped based on the whole group's relevance. This prevented certain specific features like 'Dust_Whirls' from being dropped if weather conditions as a whole provided great importance but that specific one was underrepresented in the sample. 
 Sampling for the final models was determined based on the available entries for the chosen set of data. For instance the national model was capped at 100,000 because samples over that did not increase accuracy and only served to require greater processing time, and state models used as many entries as possible up to that 100,000 limit. This did prove that a number of states were underrepresented in the data set with some states having less than 5000 entries compared to other states that reached the 100,000 limit. This later proved to be an issue with overfitting of the models. 
 
 - Sample testing is shown here:
-![feature_number_and_sample_size_metrics]()************************
+![feature_number_and_sample_size_metrics](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/feature_number_and_sample_size_metrics.png)
 
 **Train/Test Splitting**
 - Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. The standard split is 25% testing and 75% training. We decided to keep the split this way because we have a very large dataset where we would not require more than 75% of the data to be trained on to feel the model is being trained appropriately. A higher training percentage would have been utilized had the dataset been smaller. We also did not want to risk overfitting the data by using a training percentage of anything greater than 75%.
@@ -114,7 +114,7 @@ The SMOTEENN GB RFM was chosen due to the following parameters:
 While the SMOTEEN GB RFM proved to be the overall more consistently accurate model, we did have some issues related to the ability to perform the model due to available data for specific states either preventing the model form having enough points to run with or even samples being so small that most of the models over fit the data and became unreliable. To work around this limitation, we continued the use of all 5 models and would downgrage the level of the model if it could not be performed or if accuracy was above 99%, in which case, the next lowest model that worked and provided an accuracy of less than 99% was selected. These choices can be seen in the maps on the dashboard and in the provided spreadheet images here in the README. Benefits of the SMOTEENN GB RFM were consistent best accuracy, recall, and precision compared to the the other models when the data size was large enough and with feature numbers and sample size controlled, the processing time for this model was longer but reasonable and able to be performed repeatedly wtih ease. 
 
 - State and national model outcomes show how the different sampling options performed
-![state_and_national_outcomes]()************************
+![state_and_national_outcomes](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/state_and_national_outcomes.png)
 
 **Modifications Between Segment 2 And Segment 3**
 From the beginning, our group sought to choose and design the optimal model, without starting with a known lesser model. The design for the SMOTEEN GB RFM was the intent from the onset, but where we inteded to initially use the other 4 models (GB RFM, ROS, SMOTE, and RUS) just to confirm the accuracy benefit of our model selection, we realized at this point that we would need to keep the other models to ensure we could create predictions for states with insufficient data points. It was also at this time where we found that sample sizes over 100,000 did not produce increased accuracy in the national model and thus allowed us to cap the sample size and maintain a reasonable processing period. 
@@ -123,14 +123,19 @@ From the beginning, our group sought to choose and design the optimal model, wit
 The model was trained by fitting the data samples (either standard samples or resampled samples) into the Gradient Boosted Random Forest model with n_estimators=100 and features determined by calculation wtih SelectFromModel. 
 
 - The SMOTEENN GB RFM code:
-![smoteenn_ml_code]()************************
+![smoteenn_ml_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/smoteen_ml_code.png)
 
 **Confusion Matrix**
 Due to the nature of this model having 4 target vectors, a standard confusion matrix including only True Positives, False Positive, True Negatives, and False Negatives was not possible. The confusion matrix instead showed a breakdown of how many of the predictions fell into each of the potential target vectors (columns) given the correct target vector (rows). Rows are the actual severities and columns are the predictions. For instance, the value at row 1, column 1 shows the total number of predictions for severity 1 of those entries that were actually severity 1. row 1, column 2 shows how many of the actual severity 1 entries were predicted to be severity 2 and so forth and so on.
-![Confusion Matrix Image]()************************
+
+- Confusion matrix output for the national model:
+![Confusion Matrix Image](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/confusion_matrix_output.png)
 
 **Final Outcomes And Accuracy**
 The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. 
+
+- Final national model output:
+![national_model_output](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png)
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
