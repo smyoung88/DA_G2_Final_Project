@@ -13,7 +13,7 @@ blueLaws VARCHAR
 all_us_highways
 -
 full_name VARCHAR
-state_name VARCHAR PK
+state_name VARCHAR PK FK >- state_population_data_july2020.NAME
 road_geom LINESTRING
 
 state_population_data_july2020
@@ -49,7 +49,7 @@ LandArea_SqKm INT
 
 road_distance_by_state
 -
-state_name VARCHAR PK FK >- land_area_by_state_scraped.State
+state_name VARCHAR PK FK >- US_Accidents_Dec20_Updated.State
 sum_interstate_distance INT
 sum_highway_distance INT
 sum_other_distance INT
