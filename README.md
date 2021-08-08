@@ -160,7 +160,7 @@ From the beginning, our group sought to choose and design the optimal model, wit
 **Training The Model** 
 The model was trained by fitting the data samples (either standard samples or resampled samples) into the Gradient Boosted Random Forest model with n_estimators=100 and features determined by calculation wtih SelectFromModel. 
 
-- The SMOTEENN GB RFM code:
+- The SMOTEENN GB RFM code:<br>
 ![smoteenn_ml_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/smoteen_ml_code.png)
 
 **Confusion Matrix**
