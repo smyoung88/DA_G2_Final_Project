@@ -24,8 +24,8 @@ The purpose of this analysis was to explore a traffic accident dataset to see if
 4. [U.S. Census Population Data P8 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P8)
 5. [U.S. Census Population Data P3 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P3)
 6. [Kaggle U.S. Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2015_county_data.csv)
-7. [Blue Laws by State]
-8. [Marijuana Laws by State]
+7. [Blue Laws by State](https://worldpopulationreview.com/state-rankings/blue-laws-by-state)
+8. [Marijuana Laws by State](https://disa.com/map-of-marijuana-legality-by-state)
 
 **Database Integration** 
 To consolidate and share resources, using PSYCOPG2, a Postgres server was created on AWS with a modular approach to the python scripts used to push, access, and pull data using SQLAlchemy. Python’s GETPASS module was taken advantage of to provide team members with access to the database while preventing connection credentials from being displayed on GitHub.<br>
