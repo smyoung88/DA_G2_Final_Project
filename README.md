@@ -11,26 +11,32 @@ The purpose of this analysis was to explore a traffic accident dataset to see if
 
 **Reason**: If we could create a ML model to predict the impact severity on traffic for any given accident, that model could be used to increase the value proposition for mapping companies by improving route predictions. Also, map-based information is great for conveying large amounts of data quickly. And finally, when this dataset was explored, it was found that there were lots of supoprting data to work with.
 
+**Questions For The Data**:
+1. Is it possible to accurately predict the severity of accidents on a scale of 1-4 that will occur given the collected data?<br>
+2. Which features will provide the greatest support for the ML model?<br>
+3. Could an unsupervised ML model find trends when data such as road area, population density, vehicle registrations, blue laws, and marijuana laws are introduced to the accident dataset?<br>
 
-**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
+**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites. Sources and links are highilighted below:
 
 1. [U.S. Traffic Accidents from 2016 to 2020](https://www.kaggle.com/sobhanmoosavi/us-accidents)
 2. [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries?project=final-project-319117)
-3. [U.S. Census Population Data P8 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P8)
-4. [U.S. Census Population Data P3 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P3)
-5. [Kaggle U.S. Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2015_county_data.csv)
-6. U.S. Department of Transportation Vehicle Registration Data [2017](https://www.fhwa.dot.gov/policyinformation/statistics/2017/mv1.cfm) [2018](https://www.fhwa.dot.gov/policyinformation/statistics/2018/mv1.cfm) [2019](https://www.fhwa.dot.gov/policyinformation/statistics/2019/mv1.cfm)
+3. U.S. Department of Transportation Vehicle Registration Data [2017](https://www.fhwa.dot.gov/policyinformation/statistics/2017/mv1.cfm) [2018](https://www.fhwa.dot.gov/policyinformation/statistics/2018/mv1.cfm) [2019](https://www.fhwa.dot.gov/policyinformation/statistics/2019/mv1.cfm)
+4. [U.S. Census Population Data P8 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P8)
+5. [U.S. Census Population Data P3 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P3)
+6. [Kaggle U.S. Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2015_county_data.csv)
+7. [Blue Laws by State]
+8. [Marijuana Laws by State]
 
-**Questions For The Data**:
-1. Is it possible to accurately predict the severity of accidents that will occur given the collected data?<br>
-2. Which features will provide the greatest support for the ML model?<br>
-3. Could other factors such as road area, population density, vehicle registrations, blue, laws, marijuana laws, or other factors improve the accuracy of the model?<br>
+**Database Integration** 
+To consolidate and share resources, using PSYCOPG2, a Postgres server was created on AWS with a modular approach to the python scripts used to push, access, and pull data using SQLAlchemy. Python’s GETPASS module was taken advantage of to provide team members with access to the database while preventing connection credentials from being displayed on GitHub.<br>
+For upstream work, using the Pandas.Dataframe.TO_SQL() function makes it easy to connect to AWS via SQLAlchemy’s Connection Engine, 
+while downstream work was exclusively done using written SQL Queries in Python thanks to SQLAlchemy’s EXECUTE command via its Connection object. This was how the dataset was pulled into the Machine Learning model.
 
-**Description Of Data Exploration**:
+**Data Exploration & Processing**:
 During this phase of the project, multiple team members poured over the data to understand the collected variables, their formats, and how they impacted each other. Two members engaged with location data, map data, and ancillary data sets, while another member delved into the accident data superset to identify features for the ML model and begin the process of planning the ETL and encoding. Through this process, it was determined that the ML model should be constructed solely on the accident data as the other data sets would be grouped by state and these values could have lesser value to predicting accidents compared to the increased features for the model to handle. Testing these data sets could be done at a later date to determine for sure, but given the time frame of this project, they were used for visualization and dashboard purposes only. 
 
-**Analysis Phase**:
-After the initial design of the ML model, many iterations were undertaken to determine how many features should be used and which features would be best suited for contributing to the model's accuracy. These tests were performed using a constantly shifting 20,000-row sample that changed for each model. Due to the size of the dataset and the extreme variance in the distribution of entries from smaller vs larger states, using a static 20,000-row sample would likely consistently underrepresent certain states, and given the processing power required to perform predictions of larger samples, the size had to be limited to 20,000. Each iteration was performed and compared across 5 different model types (RFM, ROS, SMOTE, RUS, SMOTEENN) to compare accuracy, precision, and recall. After feature testing was completed, it was found that removing city and county was the best way to maximize the accuracy of the models and that SMOTEEENN was the most accurate with 94.3% accuracy. 
+**Analysis Phase & Outcome**:
+After the initial design of the ML model, many iterations were undertaken to determine how many features should be used and which features would be best suited for contributing to the model's accuracy. These tests were performed using a constantly shifting 20,000-row sample that changed for each model. Due to the size of the dataset and the extreme variance in the distribution of entries from smaller vs larger states, using a static 20,000-row sample would likely consistently underrepresent certain states, and given the processing power required to perform predictions of larger samples, the size had to be limited to 20,000. Each iteration was performed and compared across 5 different model types (RFM, ROS, SMOTE, RUS, SMOTEENN) to compare accuracy, precision, and recall. After feature testing was completed, it was found that removing city and county was the best way to maximize the accuracy of the models and that SMOTEEENN was the most accurate with 96.5% accuracy. 
 
 **Slides**:
 A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
