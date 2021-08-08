@@ -167,7 +167,7 @@ The model was trained by fitting the data samples (either standard samples or re
 Due to the nature of this model having 4 target vectors, a standard confusion matrix including only True Positives, False Positive, True Negatives, and False Negatives was not possible. The confusion matrix instead showed a breakdown of how many of the predictions fell into each of the potential target vectors (columns) given the correct target vector (rows). Rows are the actual severities and columns are the predictions. For instance, the value at row 1, column 1 shows the total number of predictions for severity 1 of those entries that were actually severity 1. row 1, column 2 shows how many of the actual severity 1 entries were predicted to be severity 2 and so forth and so on.
 
 - Confusion matrix output for the national model:
-![Confusion Matrix Image](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/confusion_matrix_output.png)
+<img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/confusion_matrix_output.png'>
 
 **Final Outcomes And Accuracy**
 The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. 
