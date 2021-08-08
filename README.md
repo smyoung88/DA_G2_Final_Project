@@ -7,9 +7,10 @@ The purpose of this analysis was to explore a traffic accident dataset to see if
 
 ## Presentation
 
-**Topic**: Prediction of motor vehicle accident (MVA) impacts on traffic using machine learning.
+**Topic**: Using Machine Learning to Predict The Severity of Traffic Accidents
 
-**Reason**: If a map and directions application like Waze or Google Maps could use an ML model to predict the likelihood of accidents that could impact traffic based on environmental conditions, road features, physical locations, and other factors, they could provide better route recommendations and improve the value proposition to app users/purchasers.
+**Reason**: If we could create a ML model to predict the impact severity on traffic for any given accident, that model could be used to increase the value proposition for mapping companies by improving route predictions. Also, map-based information is great for conveying large amounts of data quickly. And finally, when this dataset was explored, it was found that there were lots of supoprting data to work with.
+
 
 **Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
 
