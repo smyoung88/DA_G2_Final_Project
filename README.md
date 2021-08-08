@@ -41,6 +41,33 @@ After the initial design of the ML model, many iterations were undertaken to det
 **Slides**:
 A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
 
+## Database
+Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
+Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's `/resources/` and `/output_tables/` folders to push data directly to our AWS instance.
+<br><br>
+This approach seemed the most appropriate due to the size of our main dataset and the number of people working in it.<br>
+Should one of our contributors come up with a unique naming convention, the script to push data to AWS won't bat an eye.<br>
+The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
+To combat this potential issue, we have kept our endpoint and password secret and are using Python's nifty getpass library to input the proper credentials whenever we need to update or connect to our database.<br>
+
+For the uninitiated, our raw dataset from Kaggle is over 1GB in size.<br>
+While we have setup our Machine Learning model's preprocessing script to retrieved data directly from the database, this is not a very efficient practice.<br>
+<br>
+
+### ERD
+
+![ERD_QDBD_Team2](https://user-images.githubusercontent.com/14188580/127789804-0d1fff0f-03b6-45e6-9d7d-0788862e67eb.png)
+
+### Running PostgreSQL Commands With Python - PostgreSQL Joins
+
+SqlAlchemy makes it very easy to use PostgreSQL syntax commands with your database regardless of whether it is local or in the cloud.<br>
+In the 'Vellios' folder there is a file named `AWS_Database_Navigator_Joiner` that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
+
+After prompting one of our approved users for database credentials and making the connection with SqlAlchemy, we chose to combine 4 datasets into one table in order to begin the process of building out our State Summary dataset.<br>
+
+![postgresql join command](https://user-images.githubusercontent.com/14188580/127790033-3a70ee32-142c-44a5-a2f8-4a49b56d9bfb.PNG)
+
+
 ## Machine Learning Model
 **Initial Model Choice**: Sample-Controlled Gradient Boosted Random Forest Model
 
@@ -147,33 +174,6 @@ The final outcomes of the national and state models gave us an overall national 
 
 - Final national model output:
 ![national_model_output](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png)
-
-## Database
-Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
-Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database_Pusher_Accidents_and_State_Data` notebook file will search for all .csv files located within this repository's `/resources/` and `/output_tables/` folders to push data directly to our AWS instance.
-<br><br>
-This approach seemed the most appropriate due to the size of our main dataset and the number of people working in it.<br>
-Should one of our contributors come up with a unique naming convention, the script to push data to AWS won't bat an eye.<br>
-The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
-To combat this potential issue, we have kept our endpoint and password secret and are using Python's nifty getpass library to input the proper credentials whenever we need to update or connect to our database.<br>
-
-For the uninitiated, our raw dataset from Kaggle is over 1GB in size.<br>
-While we have setup our Machine Learning model's preprocessing script to retrieved data directly from the database, this is not a very efficient practice.<br>
-<br>
-
-### ERD
-
-![ERD_QDBD_Team2](https://user-images.githubusercontent.com/14188580/127789804-0d1fff0f-03b6-45e6-9d7d-0788862e67eb.png)
-
-### Running PostgreSQL Commands With Python - PostgreSQL Joins
-
-SqlAlchemy makes it very easy to use PostgreSQL syntax commands with your database regardless of whether it is local or in the cloud.<br>
-In the 'Vellios' folder there is a file named `AWS_Database_Navigator_Joiner` that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
-
-After prompting one of our approved users for database credentials and making the connection with SqlAlchemy, we chose to combine 4 datasets into one table in order to begin the process of building out our State Summary dataset.<br>
-
-![postgresql join command](https://user-images.githubusercontent.com/14188580/127790033-3a70ee32-142c-44a5-a2f8-4a49b56d9bfb.PNG)
-
 
 <br>
 
