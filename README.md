@@ -109,7 +109,7 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Encoding: Early on when dealing with the Weather_Condition column, Get_Dummmies() was utilized to only encode that one column so that the data set could be easily handled in reconciling the variable subjective entries without having to have the 5000+ columns of a full encoding. When the sample data set was ready for final encoding, OneHotEncoder was used to encode the data for the Random Forest Model.
 
-**Feature Engineering**
+**Feature Engineering & Feature Selection**
 Features for this model had to be carefully selected due to relevance and importance to ensure that the model would be able to run appropraitely. The raw number of features even after removing irrelevant information such as ID numbers, descriptions, and lat/long coordinates was more than 17,000 features. This was in large part due to the inclusion of cities and counties. Using improtance calculations (SelectFromModel and 'Importance' from the Random Forest Model) it was shown that most of these features had 0 impact on the model and only served to bog down processing. Even a paid Google Colabs account using a GPU and a high-RAM session proved to be insuffiencient to handle the dataset before culling of features and the model could not be run given the hardware available. Using the calculations and manual testing of the models (shown below), it was shown that the removal of City and County columns allowed for a reduction to 229 features that could then be automatically reduced to best fit the samples being run in the model through the SelectFromModel function. All models ended up running with less than 100 features.
 
 - The SelectFromModel code shows the features that have a greater than median level of importance.
@@ -172,7 +172,7 @@ Due to the nature of this model having 4 target vectors, a standard confusion ma
 <img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/confusion_matrix_output.png'>
 
 **Final Outcomes And Accuracy**
-The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. 
+The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. As can be seen, it was possible to accurately predict the severity of accidents on a scale of 1-4 that will occur given the collected data.
 
 - Final national model output:
 <img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png'>
