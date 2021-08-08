@@ -4,6 +4,9 @@
 ## Overview
 The purpose of this analysis was to explore a traffic accident dataset to see if a machine learning model could predict the traffic impact severity of accidents based on environmental and traffic conditions. The primary accident dataset came from kaggle which had 2.9M rows of accident data from the lower 48 states. The main field in the accident dataset used for the model's prediction was the 'Severity' of accidents, which is a measure of an accident's impact on traffic on a scale of 1 to 4. Psycopg2, which is a DB API 2.0 compliant PostgreSQL driver, was utilized to create a PostgreSQL server database on AWS with a modular approach to python scripts that are used to push, access, and pull data using SQLAlchemy. To clean the dataset, ETL was performed to reconcile unwanted columns, outliers, and NaNs, to make sense of diverse variables, and to bin numerical data for the ease of processing. After data was encoded, the final machine learning model of choice was the SMOTEENN Gradient Boosted Random Forest Model which was ran using google colab notebooks. An unsupervised k means machine learning model was ran on the accident dataset grouped by each state which also included data such as road area, population density, vehicle registrations, blue laws, and marijuana laws to see if it could find any trends in the data. To display the results of these analysis, a dashboard was created with nicepage utilizing javascript, html and css. More detailed descriptions of the database/sources, machine learning models, and dashboard as well as the results can be found below.
 
+**Slides**:
+A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
+
 
 ## Presentation
 
@@ -38,8 +41,6 @@ During this phase of the project, multiple team members poured over the data to 
 **Analysis Phase & Outcome**:
 After the initial design of the ML model, many iterations were undertaken to determine how many features should be used and which features would be best suited for contributing to the model's accuracy. These tests were performed using a constantly shifting 20,000-row sample that changed for each model. Due to the size of the dataset and the extreme variance in the distribution of entries from smaller vs larger states, using a static 20,000-row sample would likely consistently underrepresent certain states, and given the processing power required to perform predictions of larger samples, the size had to be limited to 20,000. Each iteration was performed and compared across 5 different model types (RFM, ROS, SMOTE, RUS, SMOTEENN) to compare accuracy, precision, and recall. After feature testing was completed, it was found that removing city and county was the best way to maximize the accuracy of the models and that SMOTEEENN was the most accurate with 96.5% accuracy. 
 
-**Slides**:
-A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
 
 ## Database
 Due to our need to separate our datasets into many unique files, we used a modular approach to push all .csv files in specific folders to an AWS PostgreSQL database using Python.<br><br>
