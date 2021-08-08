@@ -1,4 +1,9 @@
 # Using Machine Learning to Predict The Severity of Traffic Accidents
+![cover_image](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/traffic_data.png)
+
+## Overview
+
+
 
 ## Presentation
 
