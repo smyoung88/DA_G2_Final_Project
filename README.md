@@ -205,13 +205,3 @@ The table view has been refined for a more streamlined appearance.  Currently, t
 <br>
 ![accidents_table](https://user-images.githubusercontent.com/77071776/127788585-097481a4-b546-4c4d-a9c9-71c7622ad63e.jpg)
 <br>
-<br>
-
-
-## Data Sources
-- https://www.kaggle.com/sobhanmoosavi/us-accidents
-- https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries?project=final-project-319117&folder=&organizationId=
-- https://www.fhwa.dot.gov/policyinformation/statistics/2010/mv1.cfm
-- https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2015_county_data.csv
-- https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P8
-- https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P3
