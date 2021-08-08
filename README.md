@@ -173,7 +173,7 @@ Due to the nature of this model having 4 target vectors, a standard confusion ma
 The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. 
 
 - Final national model output:
-![national_model_output](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png)
+<img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png'>
 
 <br>
 
