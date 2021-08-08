@@ -2,24 +2,24 @@
 ![cover_image](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/traffic_data.png)
 
 ## Overview
-The purpose of this analysis was to explore a traffic accident dataset to see if a machine learning model could predict the traffic impact severity of accidents based on environmental and traffic conditions. The primary accident dataset came from kaggle which had 2.9M rows of accident data from the lower 48 states. The main field in the accident dataset used for the model's prediction was the 'Severity' of accidents, which is a measure of an accident's impact on traffic on a scale of 1 to 4. Psycopg2, which is a DB API 2.0 compliant PostgreSQL driver, was utilized to create a PostgreSQL server database on AWS with a modular approach to python scripts that are used to push, access, and pull data using SQLAlchemy. To clean the dataset, ETL was performed to reconcile unwanted columns, outliers, and NaNs, to make sense of diverse variables, and to bin numerical data for the ease of processing. After data was encoded, the final machine learning model of choice was the SMOTEENN Gradient Boosted Random Forest Model which was ran using google colab notebooks. An unsupervised k means machine learning model was ran on the accident dataset grouped by each state which also included data such as road area, population density, vehicle registrations, blue laws, and marijuana laws to see if it could find any trends in the data. To display the results of these analysis, a dashboard was created with nicepage utilizing javascript, html and css. More detailed descriptions of the database/sources, machine learning models, and dashboard as well as the results can be found below.
+The purpose of this analysis was to explore a traffic accident dataset to see if a machine learning model could predict the traffic impact severity of accidents based on environmental and traffic conditions. The primary accident dataset came from Kaggle which had 2.9M rows of accident data from the lower 48 states. The main field in the accident dataset used for the model's prediction was the 'Severity' of accidents, which is a measure of an accident's impact on traffic on a scale of 1 to 4. Psycopg2, which is a DB API 2.0 compliant PostgreSQL driver, was utilized to create a PostgreSQL server database on AWS with a modular approach to python scripts that are used to push, access, and pull data using SQLAlchemy. To clean the dataset, ETL was performed to reconcile unwanted columns, outliers, and NaNs, to make sense of diverse variables, and to bin numerical data for ease of processing. After data was encoded, the final machine learning model of choice was the SMOTEENN Gradient Boosted Random Forest Model which was ran using google colab notebooks. An unsupervised k means machine learning model was run on the accident dataset grouped by each state which also included data such as road area, population density, vehicle registrations, blue laws, and marijuana laws to see if it could find any trends in the data. To display the results of these analyses, a dashboard was created with nicepage utilizing javascript, HTML, and CSS. More detailed descriptions of the database/sources, machine learning models, and dashboard as well as the results can be found below.
 
 **Slides**:
-A link the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
+A link to the presentation slides can be found here: [Predicting Car Accident Impact With ML](https://docs.google.com/presentation/d/1MrigJU8uLdrrKApaSzU1UIcLSkl_03eEZ6iXevsZhrs/edit?usp=sharing)
 
 
 ## Presentation
 
 **Topic**: Using Machine Learning to Predict The Severity of Traffic Accidents
 
-**Reason**: If we could create a ML model to predict the impact severity on traffic for any given accident, that model could be used to increase the value proposition for mapping companies by improving route predictions. Also, map-based information is great for conveying large amounts of data quickly. And finally, when this dataset was explored, it was found that there were lots of supoprting data to work with.
+**Reason**: If we could create an ML model to predict the impact severity on traffic for any given accident, that model could be used to increase the value proposition for mapping companies by improving route predictions. Also, map-based information is great for conveying large amounts of data quickly. And finally, when this dataset was explored, it was found that there were lots of supporting data to work with.
 
 **Questions For The Data**:
 1. Is it possible to accurately predict the severity of accidents on a scale of 1-4 that will occur given the collected data?<br>
 2. Which features will provide the greatest support for the ML model?<br>
 3. Could an unsupervised ML model find trends when data such as road area, population density, vehicle registrations, blue laws, and marijuana laws are introduced to the accident dataset?<br>
 
-**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites. Sources and links are highilighted below:
+**Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites. Sources and links are highlighted below:
 
 1. [U.S. Traffic Accidents from 2016 to 2020](https://www.kaggle.com/sobhanmoosavi/us-accidents)
 2. [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries?project=final-project-319117)
@@ -49,10 +49,10 @@ Using the <b>sqlalchemy</b> and <b>psycopg2</b> libraries, running the `Database
 This approach seemed the most appropriate due to the size of our main dataset and the number of people working in it.<br>
 Should one of our contributors come up with a unique naming convention, the script to push data to AWS won't bat an eye.<br>
 The downside of this approach is the possibility of a user uploading more than they would like since ALL .csv files are collected and pushed.<br>
-To combat this potential issue, we have kept our endpoint and password secret and are using Python's nifty getpass library to input the proper credentials whenever we need to update or connect to our database.<br>
+To combat this potential issue, we have kept our endpoint and password secret and are using Python's nifty GETPASS library to input the proper credentials whenever we need to update or connect to our database.<br>
 
 For the uninitiated, our raw dataset from Kaggle is over 1GB in size.<br>
-While we have setup our Machine Learning model's preprocessing script to retrieved data directly from the database, this is not a very efficient practice.<br>
+While we have set up our Machine Learning model's preprocessing script to retrieved data directly from the database, this is not a very efficient practice.<br>
 <br>
 
 ### ERD
@@ -62,7 +62,7 @@ While we have setup our Machine Learning model's preprocessing script to retriev
 ### Running PostgreSQL Commands With Python - PostgreSQL Joins
 
 SqlAlchemy makes it very easy to use PostgreSQL syntax commands with your database regardless of whether it is local or in the cloud.<br>
-In the 'Vellios' folder there is a file named `AWS_Database_Navigator_Joiner` that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
+In the 'Vellios' folder, there is a file named `AWS_Database_Navigator_Joiner` that is our source for pinging the AWS Database instance and retrieving/combining data.<br>
 
 After prompting one of our approved users for database credentials and making the connection with SqlAlchemy, we chose to combine 4 datasets into one table in order to begin the process of building out our State Summary dataset.<br>
 
@@ -81,7 +81,7 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Start time column changed to date time and expanding it to Year, Month, Day, and Hour to allow for measurement of these features. 
 
-- Cities and counties were initially concatenated with states to prevent cities/counties with the same name in different states from being combined, however both City and County features were ultimately dropped due to an increibly high demand for processing from 5234 features being present with all cities and counties represented and the low value of the vast majority of those features. 
+- Cities and counties were initially concatenated with states to prevent cities/counties with the same name in different states from being combined, however, both City and County features were ultimately dropped due to an incredibly high demand for processing from 5234 features being present with all cities and counties represented and the low value of the vast majority of those features. 
 
 - Wind Directions were grouped down to the 8 cardinal directions (N, S, E, W, NE, SE, NW, SW) instead of keeping the original 16. This was done to reduce the number of features in the final model. 
 
@@ -107,10 +107,10 @@ The initial accident dataset contained 47 columns and 2.9M rows. This data conta
 
 - Year, Month, Day, and Hour were not converted to objects in preparation for encoding until the end in order to allow for sampling related to these time/date variables until just before encoding. 
 
-- Encoding: Early on when dealing with the Weather_Condition column, Get_Dummmies() was utilized to only encode that one column so that the data set could be easily handled in reconciling the variable subjective entries without having to have the 5000+ columns of a full encoding. When the sample data set was ready for final encoding, OneHotEncoder was used to encode the data for the Random Forest Model.
+- Encoding: Early on when dealing with the Weather_Condition column, Get_Dummmies() was utilized to encode that one column so that the data set could be easily handled in reconciling the variable subjective entries without having to have the 5000+ columns of a full encoding. When the sample data set was ready for final encoding, OneHotEncoder was used to encode the data for the Random Forest Model.
 
 **Feature Engineering & Feature Selection**
-Features for this model had to be carefully selected due to relevance and importance to ensure that the model would be able to run appropraitely. The raw number of features even after removing irrelevant information such as ID numbers, descriptions, and lat/long coordinates was more than 17,000 features. This was in large part due to the inclusion of cities and counties. Using improtance calculations (SelectFromModel and 'Importance' from the Random Forest Model) it was shown that most of these features had 0 impact on the model and only served to bog down processing. Even a paid Google Colabs account using a GPU and a high-RAM session proved to be insuffiencient to handle the dataset before culling of features and the model could not be run given the hardware available. Using the calculations and manual testing of the models (shown below), it was shown that the removal of City and County columns allowed for a reduction to 229 features that could then be automatically reduced to best fit the samples being run in the model through the SelectFromModel function. All models ended up running with less than 100 features.
+Features for this model had to be carefully selected due to relevance and importance to ensure that the model would be able to run appropriately. The raw number of features even after removing irrelevant information such as ID numbers, descriptions, and lat/long coordinates was more than 17,000 features. This was in large part due to the inclusion of cities and counties. Using importance calculations (SelectFromModel and 'Importance' from the Random Forest Model) it was shown that most of these features had zero impact on the model and only served to bog down processing. Even a paid Google Colabs account using a GPU and a high-RAM session proved to be insufficient to handle the dataset before culling of features and the model could not be run given the hardware available. Using the calculations and manual testing of the models (shown below), it was shown that the removal of City and County columns allowed for a reduction to 229 features that could then be automatically reduced to best fit the samples being run in the model through the SelectFromModel function. All models ended up running with less than 100 features.
 
 - The SelectFromModel code shows the features that have a greater than median level of importance.
 ![SelectFromModel_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/SelectFromModel_code.png)
@@ -122,8 +122,8 @@ Features for this model had to be carefully selected due to relevance and import
 ![feature_selection_metrics](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/feature_selection_metrics.png)
 
 **Sampling**
-Sampling of the data set was varied depending on the processes being undertaken. For testing of features, samples of 20,000 were used because many models needed to run and large sample sizes too a great deal of time. During assessment, features were considered based on feature type group so that either an entire group  (ie Weather_Condition or City) was kept or dropped based on the whole group's relevance. This prevented certain specific features like 'Dust_Whirls' from being dropped if weather conditions as a whole provided great importance but that specific one was underrepresented in the sample. 
-Sampling for the final models was determined based on the available entries for the chosen set of data. For instance the national model was capped at 100,000 because samples over that did not increase accuracy and only served to require greater processing time, and state models used as many entries as possible up to that 100,000 limit. This did prove that a number of states were underrepresented in the data set with some states having less than 5000 entries compared to other states that reached the 100,000 limit. This later proved to be an issue with overfitting of the models. 
+Sampling of the data set was varied depending on the processes being undertaken. For testing of features, samples of 20,000 were used because many models needed to run and large sample sizes took a great deal of time. During the assessment, features were considered based on feature type group so that either an entire group  (ie Weather_Condition or City) was kept or dropped based on the whole group's relevance. This prevented certain specific features like 'Dust_Whirls' from being dropped if weather conditions as a whole provided great importance but that specific one was underrepresented in the sample. 
+Sampling for the final models was determined based on the available entries for the chosen set of data. For instance, the national model was capped at 100,000 samples, because samples over that did not increase accuracy and only served to require greater processing time, and state models used as many entries as possible up to that 100,000 sample limit. This did prove that a number of states were underrepresented in the data set with some states having less than 5000 entries compared to other states that reached the 100,000 sample limit. This later proved to be an issue with overfitting of the models. 
 
 - Sample testing is shown here:
 ![feature_number_and_sample_size_metrics](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/feature_number_and_sample_size_metrics.png)
@@ -136,7 +136,7 @@ Sampling for the final models was determined based on the available entries for 
 <br>[ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)************************
 
 **The ML Model**:
-The SMOTEENN Gradient Boosted Random Forest Model (SMOTEEN GB RFM) was our final chosen model for the national supervised ML model, however we did run 5 different models concurrently (Gradient Boosted Random Forest Model without resampling, Random Oversampling, SMOTE Oversampling, Random Undersampling, and SMOTEENN Combination Resampling). This was done initially to confirm that our model choice was in fact the most accurate, however upon running the state models, we realized that certain states did not possess enough entries for the SMOTE or SMOTEENN models to run and thus we had to downgrade the model for certain states to Random Oversampling or the Gradient Boosted Random Forest Model with no sampling assistance so that we could include those states. 
+The SMOTEENN Gradient Boosted Random Forest Model (SMOTEEN GB RFM) was our final chosen model for the national supervised ML model, however, we did run 5 different models concurrently (Gradient Boosted Random Forest Model without resampling, Random Oversampling, SMOTE Oversampling, Random Undersampling, and SMOTEENN Combination Resampling). This was done initially to confirm that our model choice was in fact the most accurate, however upon running the state models, we realized that certain states did not possess enough entries for the SMOTE or SMOTEENN models to run, and thus we had to downgrade the model for certain states to Random Oversampling or the Gradient Boosted Random Forest Model with no sampling assistance so that we could include those states. 
 
 **Model Choice Explanation** 
 The SMOTEENN GB RFM was chosen due to the following parameters:
@@ -150,7 +150,7 @@ The SMOTEENN GB RFM was chosen due to the following parameters:
 4. Random Forest Model increased accuracy: compared with other classification-based models, Random Forest Models have been shown to have a higher accuracy of prediction in many cases. This gave reason to make this the first choice for this complex set of data. 
 
 **Limitations and Benefits**  
-While the SMOTEEN GB RFM proved to be the overall more consistently accurate model, we did have some issues related to the ability to perform the model due to available data for specific states either preventing the model form having enough points to run with or even samples being so small that most of the models over fit the data and became unreliable. To work around this limitation, we continued the use of all 5 models and would downgrage the level of the model if it could not be performed or if accuracy was above 99%, in which case, the next lowest model that worked and provided an accuracy of less than 99% was selected. These choices can be seen in the maps on the dashboard and in the provided spreadheet images here in the README. Benefits of the SMOTEENN GB RFM were consistent best accuracy, recall, and precision compared to the the other models when the data size was large enough and with feature numbers and sample size controlled, the processing time for this model was longer but reasonable and able to be performed repeatedly wtih ease. 
+While the SMOTEEN GB RFM proved to be the overall more consistently accurate model, we did have some issues related to the ability to perform the model due to available data for specific states either preventing the model from having enough points to run with or even samples being so small that most of the models overfit the data and became unreliable. To work around this limitation, we continued the use of all 5 models and would downgrade the level of the model if it could not be performed or if accuracy was above 99%, in which case, the next lowest model that worked and provided an accuracy of less than 99% was selected. These choices can be seen in the maps on the dashboard and in the provided spreadsheet images here in the README. The benefits of the SMOTEENN GB RFM were having the most consistent and best accuracy, recall, and precision compared to the other models when the data size was large enough and with feature numbers and sample sizes being controlled. The processing time for this model was longer but reasonable and able to be performed repeatedly with ease. 
 
 - State and national model outcomes show how the different sampling options performed
 ![state_and_national_outcomes](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/state_and_national_outcomes.png)
@@ -166,13 +166,13 @@ The model was trained by fitting the data samples (either standard samples or re
 ![smoteenn_ml_code](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/smoteen_ml_code.png)
 
 **Confusion Matrix**
-Due to the nature of this model having 4 target vectors, a standard confusion matrix including only True Positives, False Positive, True Negatives, and False Negatives was not possible. The confusion matrix instead showed a breakdown of how many of the predictions fell into each of the potential target vectors (columns) given the correct target vector (rows). Rows are the actual severities and columns are the predictions. For instance, the value at row 1, column 1 shows the total number of predictions for severity 1 of those entries that were actually severity 1. row 1, column 2 shows how many of the actual severity 1 entries were predicted to be severity 2 and so forth and so on.
+Due to the nature of this model having four target vectors, a standard confusion matrix including only True Positives, False Positive, True Negatives, and False Negatives was not possible. The confusion matrix instead showed a breakdown of how many of the predictions fell into each of the potential target vectors (columns) given the correct target vector (rows). Rows are the actual severities and columns are the predictions. For instance, the value at row 1, column 1 shows the total number of predictions for severity 1 of those entries that were actually severity 1. Row 1, column 2 shows how many of the actual severity 1 entries were predicted to be severity 2, etc.
 
 - Confusion matrix output for the national model:
 <img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/confusion_matrix_output.png'>
 
 **Final Outcomes And Accuracy**
-The final outcomes of the national and state models gave us an overall national accraucy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. As can be seen, it was possible to accurately predict the severity of accidents on a scale of 1-4 that will occur given the collected data.
+The final outcomes of the national and state models gave us an overall national accuracy of 86.3% and state accuracies that ranged from 78.1% to 99%. The median state accuracy was above 90%. The final sampling option chosen for each state was determined by identifying the most accurate model that was below 99% to prevent overfitting of the model. This includes those states that could not perform the SMOTE or SMOTEENN resampling. As can be seen, it was possible to accurately predict the severity of accidents on a scale of 1-4 that will occur given the collected data.
 
 - Final national model output:
 <img height=50% width=50% src='https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Images/national_model_outcomes.png'>
@@ -181,7 +181,7 @@ The final outcomes of the national and state models gave us an overall national 
 
 ## Dashboard
 
-**Visualizations and Website**:  Development of the final website continues in this phase of the project and the site remains live for preview.  Elements added include refinements to the table page, and a presentation tab that mirrors the Google Slides file.  The visualizations created on for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard will include a visualization detailing the final accuracy of the machine learning model by state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
+**Visualizations and Website**:  Development of the final website continues in this phase of the project and the site remains live for preview.  Elements added include refinements to the table page and a presentation tab that mirrors the Google Slides file.  The visualizations created for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard includes a visualization detailing the final accuracy of the machine learning model by each state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
 <br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
 Deliverable 2 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
 <br>
@@ -198,7 +198,7 @@ The tooltip opens upon hovering over an accident site.
 ![tooltip](https://user-images.githubusercontent.com/77071776/126848231-86bb86e8-a4e5-4aae-91d8-21f35c841166.png)
 <br>
 <br>
-The accident locations can be filtered on the map by severity (from 1 - 4).  The population data in the legend was provided by the Tableau US Census data for 2018.  This map view and the population layer was chosen specifically because the dense population areas clearly show the prevalence of traffic accidents.
+The accident locations can be filtered on the map by severity (from 1 - 4).  The population data in the legend was provided by the Tableau US Census data for 2018.  This map view and the population layer were chosen specifically because the dense population areas clearly show the prevalence of traffic accidents.
 <br>
 ![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
 <br>
