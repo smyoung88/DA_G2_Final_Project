@@ -13,13 +13,12 @@ The purpose of this analysis was to explore a traffic accident dataset to see if
 
 **Source Data**: The primary data source is a large accident report data set that is intended to be used for prediction in the ML model. Supplementary data sets include an overview of roads, vehicle registrations, and other factors for context and gaining better insight into other factors that may impact probabilities of accidents and traffic jams. The accident dataset was sourced through Kaggle and was compiled through multiple APIs targeting streaming, web-based incident report sites. Data regarding road locations and lengths were sourced through Google’s BigQuery service. Vehicle registration data was sourced through government websites.
 
-1. Kaggle US Accidents Database
-2. BigQuery geo_us_roads.us_national_roads dataset
-3. Census Bureau of US Boundaries (States/Counties/Congressional Districts/City Limits Etc)
-4. 2010 Vehicle Registration by Date
-5. Population Data
-6. Kaggle US Demographic Census - 2015
-7. Decennial Census - Population Race by State 2010
+1. [U.S. Traffic Accidents from 2016 to 2020](https://www.kaggle.com/sobhanmoosavi/us-accidents)
+2. [Census Bureau US Boundaries](https://console.cloud.google.com/marketplace/product/united-states-census-bureau/us-geographic-boundaries?project=final-project-319117)
+3. [U.S. Census Population Data P8 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P8)
+4. [U.S. Census Population Data P3 table](https://data.census.gov/cedsci/table?q=population&tid=DECENNIALCD1162010.P3)
+5. [Kaggle U.S. Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2015_county_data.csv)
+6. U.S. Department of Transportation Vehicle Registration Data [2017](https://www.fhwa.dot.gov/policyinformation/statistics/2017/mv1.cfm) [2018](https://www.fhwa.dot.gov/policyinformation/statistics/2018/mv1.cfm) [2019](https://www.fhwa.dot.gov/policyinformation/statistics/2019/mv1.cfm)
 
 **Questions For The Data**:
 1. Is it possible to accurately predict the severity of accidents that will occur given the collected data?<br>
