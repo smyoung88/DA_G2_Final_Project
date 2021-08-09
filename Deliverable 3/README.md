@@ -183,7 +183,7 @@ The final outcomes of the national and state models gave us an overall national 
 
 **Visualizations and Website**:  Development of the final website continues in this phase of the project and the site remains live for preview.  Elements added include refinements to the table page and a presentation tab that mirrors the Google Slides file.  The visualizations created for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard includes a visualization detailing the final accuracy of the machine learning model by each state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
 <br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
-Deliverable 2 Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
+Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
 <br>
 ![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
 <br>
