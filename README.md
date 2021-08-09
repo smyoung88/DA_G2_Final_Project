@@ -135,7 +135,7 @@ Sampling for the final models was determined based on the available entries for 
 <br>[ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)************************
 <br>[ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)************************
 
-**The ML Model**:
+**The Final ML Model**:
 The SMOTEENN Gradient Boosted Random Forest Model (SMOTEEN GB RFM) was our final chosen model for the national supervised ML model, however, we did run 5 different models concurrently (Gradient Boosted Random Forest Model without resampling, Random Oversampling, SMOTE Oversampling, Random Undersampling, and SMOTEENN Combination Resampling). This was done initially to confirm that our model choice was in fact the most accurate, however upon running the state models, we realized that certain states did not possess enough entries for the SMOTE or SMOTEENN models to run, and thus we had to downgrade the model for certain states to Random Oversampling or the Gradient Boosted Random Forest Model with no sampling assistance so that we could include those states. 
 
 **Model Choice Explanation** 
