@@ -34,13 +34,13 @@
 
 .u-section-2 .u-custom-html-1 {
   min-height: 669px;
-  height: auto;
   width: 1205px;
   margin: 0 -32px 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-custom-html-1 {
+    height: auto;
     width: 940px;
     margin-left: 0;
     margin-right: 0;
