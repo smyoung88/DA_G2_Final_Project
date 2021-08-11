@@ -181,29 +181,20 @@ The final outcomes of the national and state models gave us an overall national 
 
 ## Dashboard
 
-**Visualizations and Website**:  Development of the final website continues in this phase of the project and the site remains live for preview.  Elements added include refinements to the table page and a presentation tab that mirrors the Google Slides file.  The visualizations created for the dashboard were created with Tableau, using the Kaggle dataset.  The final dashboard includes a visualization detailing the final accuracy of the machine learning model by each state as well as an adjusted "crash index" which will take into account adjustments for state population and registered vehicles for that state.  
+**Visualizations and Website**:  The website was created with an HTML editing program named Nicepage.  
+* The Analysis page offers a full explanation of our machine learning model.  Here we go into great detail of the Data Exploration and ETL processes, and also explain our model choice and how we refined it throughout the project.
+* Using Tableau, we created interactive maps that showcase various elements of our project.
+* Interactive maps allow filtering and details are displayed on screen as different elements are selected.
+* The maps tab features a drop-down menu with each state grouped by geographical region.
+* The table page allows searching city, state and severity to see accident details.  Because of the size of our dataset, it takes a moment for the table to load.
+
 <br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
-Visualizations and Website files can be found <a href="https://github.com/smyoung88/DA_G2_Final_Project/tree/frost/Frost">here</a>.<br>
-<br>
-![home](https://user-images.githubusercontent.com/77071776/126848202-2700edfd-edc4-43b8-824f-c01e2ed2ab71.jpg)
-<br>
-<br>
-A Dropdown menu is available to select from the lower 48 states plus the District of Columbia.
-<br>
-![dropdown](https://user-images.githubusercontent.com/77071776/126848223-95751de2-5f77-489b-9633-ec41a63b8079.png)
-<br>
-<br>
-The tooltip opens upon hovering over an accident site.  
-<br>
-![tooltip](https://user-images.githubusercontent.com/77071776/126848231-86bb86e8-a4e5-4aae-91d8-21f35c841166.png)
-<br>
-<br>
-The accident locations can be filtered on the map by severity (from 1 - 4).  The population data in the legend was provided by the Tableau US Census data for 2018.  This map view and the population layer were chosen specifically because the dense population areas clearly show the prevalence of traffic accidents.
-<br>
-![severity_filter_and_population](https://user-images.githubusercontent.com/77071776/126848798-70c99000-886a-4eaa-97a5-51f868107806.png)
-<br>
-<br>
-The table view has been refined for a more streamlined appearance.  Currently, there are only 100,000 rows of data contained within the table view.  This gives a random sampling of the entire accident dataset.
-<br>
-![accidents_table](https://user-images.githubusercontent.com/77071776/127788585-097481a4-b546-4c4d-a9c9-71c7622ad63e.jpg)
-<br>
+![Slide1](https://user-images.githubusercontent.com/77071776/129053811-68208a59-990a-4710-a903-c306fb495d27.JPG)
+<br><br>
+![Slide2](https://user-images.githubusercontent.com/77071776/129053838-1b610cac-d798-4796-a7dd-dc426ca6b303.JPG)
+<br><br>
+![Slide3](https://user-images.githubusercontent.com/77071776/129054509-e3ff9961-fb9c-40bf-94c8-417b0b36bcf4.JPG)
+<br><br>
+![Slide4](https://user-images.githubusercontent.com/77071776/129054537-d0088c38-9518-405b-afc0-9e98b8b8e806.JPG)
+<br><br>
+![presentation](https://user-images.githubusercontent.com/77071776/129054561-39efb601-ac1e-4812-aa0f-c0c471f1ea89.gif)
