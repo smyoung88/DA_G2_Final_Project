@@ -188,7 +188,7 @@ The final outcomes of the national and state models gave us an overall national 
 * The maps tab features a drop-down menu with each state grouped by geographical region.
 * The table page allows searching city, state and severity to see accident details.  Because of the size of our dataset, it takes a moment for the table to load.
 
-<br>Link to the outline of the webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
+<br>Link to the CrashSite webpage can be found found <a href="https://frostbrosracing.github.io/CrashSite/">here</a>.<br>
 ![Slide1](https://user-images.githubusercontent.com/77071776/129053811-68208a59-990a-4710-a903-c306fb495d27.JPG)
 <br><br>
 ![Slide2](https://user-images.githubusercontent.com/77071776/129053838-1b610cac-d798-4796-a7dd-dc426ca6b303.JPG)
