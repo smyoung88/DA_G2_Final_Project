@@ -132,8 +132,7 @@ Sampling for the final models was determined based on the available entries for 
 - Training, Testing, and Splitting: Scikit Learn’s train_test_split was used to separate the sample datasets into training and testing groups. The standard split is 25% testing and 75% training. We decided to keep the split this way because we have a very large dataset where we would not require more than 75% of the data to be trained on to feel the model is being trained appropriately. A higher training percentage would have been utilized had the dataset been smaller. We also did not want to risk overfitting the data by using a training percentage of anything greater than 75%.
 
 **Data ETL And Encoding Output Files**:
-<br>[ETL/NOT-Encoded CSV](https://drive.google.com/file/d/1P9iGg39S0b0FfpdVdMuAJmwI2ulgz9Co/view?usp=sharing)************************
-<br>[ETL/Encoded CSV](https://drive.google.com/file/d/1-9B3rYYJSuzqqr3IiBnjMFbovYPIOGlE/view?usp=sharing)************************
+<br>[ETL/NOT-Encoded CSV](https://github.com/smyoung88/DA_G2_Final_Project/blob/main/Resources/Accident_Data_ETL_Not_Encoded.csv)
 
 **The Final ML Model**:
 The SMOTEENN Gradient Boosted Random Forest Model (SMOTEEN GB RFM) was our final chosen model for the national supervised ML model, however, we did run 5 different models concurrently (Gradient Boosted Random Forest Model without resampling, Random Oversampling, SMOTE Oversampling, Random Undersampling, and SMOTEENN Combination Resampling). This was done initially to confirm that our model choice was in fact the most accurate, however upon running the state models, we realized that certain states did not possess enough entries for the SMOTE or SMOTEENN models to run, and thus we had to downgrade the model for certain states to Random Oversampling or the Gradient Boosted Random Forest Model with no sampling assistance so that we could include those states. 
