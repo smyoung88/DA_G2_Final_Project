@@ -576,33 +576,60 @@
   .u-section-8 .u-sheet-1 {
     min-height: 90px;
   }
-}.u-section-9 .u-image-1 {
-  min-height: 586px;
-  background-image: url("images/state_and_national_outcomes.png");
-  background-position: 0% 50%;
+}.u-section-9 .u-sheet-1 {
+  min-height: 549px;
+}
+
+.u-section-9 .u-image-1 {
+  height: 540px;
+  margin-top: 0;
+  margin-bottom: 9px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-9 .u-sheet-1 {
+    min-height: 455px;
+  }
+
   .u-section-9 .u-image-1 {
-    min-height: 497px;
+    height: 440px;
+    width: 931px;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-9 .u-sheet-1 {
+    min-height: 355px;
+  }
+
   .u-section-9 .u-image-1 {
-    min-height: 381px;
+    height: 340px;
+    width: 720px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-9 .u-sheet-1 {
+    min-height: 270px;
+  }
+
   .u-section-9 .u-image-1 {
-    min-height: 286px;
+    height: 255px;
+    width: 540px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-9 .u-sheet-1 {
+    min-height: 176px;
+  }
+
   .u-section-9 .u-image-1 {
-    min-height: 180px;
+    height: 161px;
+    width: 340px;
   }
 }.u-section-10 .u-sheet-1 {
   min-height: 2309px;
@@ -682,6 +709,8 @@
   }
 
   .u-section-10 .u-text-1 {
+    width: auto;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }
